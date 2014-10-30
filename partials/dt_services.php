@@ -1,4 +1,4 @@
-<section id="our_services" class="dark">
+<section id="services" class="dark">
 	<div class="container">
 
 		<h1 class="center head-title white">

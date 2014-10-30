@@ -46,6 +46,6 @@
 </head>
 
 
-<body>
+<body id="home">
 
 <?php get_template_part('partials/dt_nav'); ?>

@@ -1,4 +1,4 @@
-<div id="contact_us">
+<div id="contact">
 	<div class="spc-md"></div>
 	<div class="container">
 
