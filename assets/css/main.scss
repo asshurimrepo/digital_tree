@@ -1,0 +1,240 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700,800);
+
+body {
+  font-weight: 300;
+  font-size: 18px;
+  background: #f8f8f8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-navbar {
+
+  background-color: #fafafa;
+  border-bottom: 1px #c0c0c0 solid;
+  border-radius: 0;
+  margin-bottom: 0;
+
+}
+
+figure.logo {
+  background-color: #fafafa;
+  margin-bottom: -114px;
+  display: inline-block;
+  position: relative;
+  z-index: 9999;
+}
+
+a{
+  color: inherit;
+}
+
+//Containers
+.dark {
+
+  background: #282c2f;
+  padding: 20px 0;
+  color: #FFF !important;
+
+}
+
+.mid-dark {
+  background: #bcbcbc;
+  padding: 20px 0;
+  color: #3c3c3c !important;
+}
+
+//Alignments
+
+.center, .center img, img.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.italic{
+  font-style: italic;
+}
+
+//Spaces
+.spc-sm {
+  height: 10px;
+}
+
+.spc-md {
+  height: 20px;
+}
+
+.spc-lg {
+  height: 50px;
+}
+
+//Colors
+.white {
+  color: #ffffff;
+}
+
+//Titles
+
+.head-title {
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.head-title small {
+  display: block;
+  font-weight: 300;
+  font-size: 50%;
+}
+
+.head-title .shadow {
+  margin-top: 10px;
+}
+
+//Headers
+h2, h3 {
+  letter-spacing: 1px;
+}
+
+//Font weights
+.fw800 {
+  font-weight: 800;
+}
+
+.fw300{
+  font-weight: 300;
+}
+
+.fw800 .fa {
+  font-size: 50px;
+}
+
+//Displays
+.block {
+  display: block;
+}
+
+//Shadow
+.shadow2 {
+  $height: 66;
+  background: url("../img/shadow2.png") no-repeat center;
+  height: $height+px;
+  margin-bottom: -$height+px;
+  position: relative;
+}
+
+//Profile
+.profile {
+  background-size: cover;
+  background-position: center;
+}
+
+
+//Featured Box
+.featured-box{
+  background: #4c4c4c;
+  padding: 20px;
+  color: #FFF;
+}
+
+.condensed{
+  margin: 0;
+  padding: 0;
+}
+
+//Btns
+.btn-light{
+  background: #ffdfcf;
+  color: #d24702;
+  font-weight: 600;
+}
+
+.btn-dark-red{
+  background: #d24702;
+  color: #f4beaa;
+  font-weight: 600;
+}
+
+//Forms
+$marginBottom: 7px;
+$formHeight: 59px;
+
+.form input[type='text'], .form input[type='email'], .form select, .form textarea{
+  font-style: italic;
+  border: none;
+  padding: 15px;
+  display: block;
+  width: 100%;
+  min-height: $formHeight;
+  font-size: 20px;
+  margin-bottom: $marginBottom;
+  border-radius: 0;
+}
+
+.form select{
+  height: $formHeight;
+}
+
+.dark-form input[type='text'], .dark-form input[type='email'], .dark-form select, .dark-form textarea{
+  background: #4c4c4c;
+  color: #FFF;
+}
+
+.light-form input[type='text'], .light-form input[type='email'], .light-form select, .light-form textarea{
+  background: #e2e2e2;
+  color: #858585;
+}
+
+.dark-form .btn, .light-form .btn{
+  padding: 15px;
+  font-size: 16px;
+  display: block;
+  height: 59px;
+  vertical-align: middle;
+  border-radius: 0;
+  margin-bottom: $marginBottom;
+}
+
+
+//footer
+
+footer{
+  background: #464646;
+  padding: 40px 0;
+  color: #FFF;
+}
+
+footer .copyright{
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+footer .menu{
+  display: block;
+  list-style: none;
+  margin-top: 40px;
+}
+
+footer .menu li{
+  display: inline-block;
+}
+
+footer .menu a{
+  display: block;
+  padding: 10px 20px;
+  font-size: 120%;
+}
+
+footer .socials a{
+  font-size: 50px;
+  color: #282828;
+  padding: 0 7px;
+  display: inline-block;
+}
+
+footer .socials a:hover{
+  color: #ff7200;1
+}
+
+//Leads
+span.lead{
+  letter-spacing: 2px;
+}
