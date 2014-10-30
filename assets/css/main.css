@@ -11,6 +11,9 @@ body {
   border-radius: 0;
   margin-bottom: 0; }
 
+.main-navbar a {
+  font-weight: 600 !important; }
+
 figure.logo {
   background-color: #fafafa;
   margin-bottom: -114px;

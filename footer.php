@@ -29,7 +29,7 @@
 		<div class="col-md-8 center">
 
 			<div>
-				<ul class="menu">
+				<ul class="menu text-right">
 					<li><a href="#">our services</a></li>
 					<li><a href="#">our team</a></li>
 					<li><a href="#">our hiring</a></li>
