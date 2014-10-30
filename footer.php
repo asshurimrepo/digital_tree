@@ -30,10 +30,10 @@
 
 			<div>
 				<ul class="menu text-right">
-					<li><a href="#">our services</a></li>
-					<li><a href="#">our team</a></li>
-					<li><a href="#">our hiring</a></li>
-					<li><a href="#">contact us</a></li>
+					<li><a href="#services">our services</a></li>
+					<li><a href="#team">our team</a></li>
+					<li><a href="#hiring">now hiring</a></li>
+					<li><a href="#contact">contact us</a></li>
 				</ul>
 			</div>
 
