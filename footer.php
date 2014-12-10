@@ -31,7 +31,7 @@
 			<div>
 				<ul class="menu text-right">
 					<li><a href="#services">our services</a></li>
-					<li><a href="#team">our team</a></li>
+					<li><a href="#team">blogs</a></li>
 					<li><a href="#hiring">now hiring</a></li>
 					<li><a href="#contact">contact us</a></li>
 				</ul>
