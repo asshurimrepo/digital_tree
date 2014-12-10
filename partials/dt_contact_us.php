@@ -30,12 +30,12 @@
 				<span class="italic lead">info@the-digitaltree.com</span>
 
 				<h3>Call us</h3>
-				<span class="italic lead">(123) 456-7890</span>
+				<span class="italic lead">+971 50 2551752</span>
 
 				<h3>Address</h3>
-				<span class="italic lead">Last street</span>
-				<span class="italic lead">Upper Highway</span>
-				<span class="italic lead">corner</span>
+				<span class="italic lead">Dubai</span>
+				<span class="italic lead">Internet</span>
+				<span class="italic lead">City</span>
 
 			</p>
 		</div>
