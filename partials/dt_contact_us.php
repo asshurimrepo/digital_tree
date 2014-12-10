@@ -23,7 +23,7 @@
 
 			<p>
 				<h3>Email us</h3>
-				<span class="italic lead">info@thedigitaltree.com</span>
+				<span class="italic lead">info@the-digitaltree.com</span>
 
 				<h3>Call us</h3>
 				<span class="italic lead">(123) 456-7890</span>
