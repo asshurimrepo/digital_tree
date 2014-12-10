@@ -1,4 +1,9 @@
 <?php
+	/*
+	Template Name: Index Page
+	Author: Asshurim Larita
+	*/
+
 	get_header();
 
 
