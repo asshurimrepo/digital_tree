@@ -1,6 +1,6 @@
 <div class="container center">
 	<div class="spc-md"></div>
-	<h2 class="condensed">Partners</h2>
+	<h2 class="condensed">partners</h2>
 	<div class="spc-lg"></div>
 
 	<img src="<?= asset( 'assets/img/clients.png' ) ?>" class="img-responsive" alt=""/>
