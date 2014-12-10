@@ -60,11 +60,9 @@
 
 /* Image Box Style */
 #mainwrapper .box {
-  border: 5px solid #fff;
   cursor: pointer;
   float: left;
   margin: 5px;
-  height: 300px;
   position: relative;
   overflow: hidden;
   width: 100%;

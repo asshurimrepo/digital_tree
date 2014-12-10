@@ -2,10 +2,9 @@
 <div class="col-md-4">
 
 	<div class="profile" style="background-image: url(<?= $featured_image_url ?>);">
-<!--		<a href="--><?php //the_permalink() ?><!--"><img src="--><?//= asset( 'assets/img/profile-spc.png' ) ?><!--"/></a>-->
 
 		<div id="box-6" class="box">
-			<?php the_post_thumbnail([300,300]); ?>
+			<a href="<?php the_permalink() ?>"><img src="<?= asset( 'assets/img/profile-spc.png' ) ?>"/></a>
 <!--			<img id="image-6" src="--><?//=$featured_image_url?><!--"/>-->
 			<span class="caption scale-caption">
 				<p><?php the_excerpt(); ?></p>
