@@ -8,7 +8,7 @@
 <!--			<img id="image-6" src="--><?//=$featured_image_url?><!--"/>-->
 			<a href="<?php the_permalink() ?>">
 				<span class="caption scale-caption">
-					<p><?php echo wp_trim_words( get_the_content(), 25); ?></p>
+					<p><?php echo wp_trim_words( get_the_excerpt(), 25); ?></p>
 				</span>
 			</a>
 		</div>
