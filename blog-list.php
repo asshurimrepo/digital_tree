@@ -5,7 +5,7 @@
 <!--		<a href="--><?php //the_permalink() ?><!--"><img src="--><?//= asset( 'assets/img/profile-spc.png' ) ?><!--"/></a>-->
 
 		<div id="box-6" class="box">
-			<?php the_post_thumbnail('small'); ?>
+			<?php the_post_thumbnail([300,300]); ?>
 <!--			<img id="image-6" src="--><?//=$featured_image_url?><!--"/>-->
 			<span class="caption scale-caption">
 				<p><?php the_excerpt(); ?></p>
