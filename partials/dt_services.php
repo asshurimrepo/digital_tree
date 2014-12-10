@@ -1,4 +1,4 @@
-<?php $services = get_field('services', 2); var_dump($services); ?>
+<?php $services = get_field('services', 2); /*var_dump($services);*/ ?>
 
 <section id="services" class="dark">
 	<div class="container">
@@ -18,13 +18,13 @@
 
 			<div class="col-md-4">
 
-				<h3 class="fw800 center"><?=$service->icon?>
+				<h3 class="fw800 center"><?=$service['icon']?>
 					<div class="spc-md"></div>
-					<?=$service->title?>
+					<?=$service['title']?>
 				</h3>
 
 				<div class="spc-md"></div>
-				<p><?=$service->description?></p>
+				<p><?=$service['description']?></p>
 			</div>
 
 				<?php if($i%3 == 2): ?> <div class="col-md-12 spc-md"></div> <?php endif; ?>
