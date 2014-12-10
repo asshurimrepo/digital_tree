@@ -7,7 +7,7 @@
 			<a href="<?php the_permalink() ?>"><img src="<?= asset( 'assets/img/profile-spc.png' ) ?>"/></a>
 <!--			<img id="image-6" src="--><?//=$featured_image_url?><!--"/>-->
 			<span class="caption scale-caption">
-				<p><?php the_excerpt(); ?></p>
+				<p><?php echo wp_trim_words( get_the_content(), 10); ?></p>
 			</span>
 		</div>
 
