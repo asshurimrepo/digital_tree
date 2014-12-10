@@ -25,7 +25,7 @@
 					<div class="col-md-4">
 
 						<div class="profile" style="background-image: url(<?= $featured_image_url ?>);">
-							<img src="<?= asset( 'assets/img/profile-spc.png' ) ?>"/>
+							<a href="<?php the_permalink() ?>"><img src="<?= asset( 'assets/img/profile-spc.png' ) ?>"/></a>
 						</div>
 
 						<div class="profile-info">
