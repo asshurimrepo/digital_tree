@@ -5,8 +5,8 @@
 	<div class="container">
 
 		<h1 class="center head-title">
-			our team
-			<small>lorem ipsum dolor sit amet</small>
+			Blogs
+<!--			<small>lorem ipsum dolor sit amet</small>-->
 
 			<img class="img-responsive center shadow" src="<?= asset( 'assets/img/shadow.png' ) ?>"/>
 		</h1>
