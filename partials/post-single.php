@@ -1,7 +1,7 @@
 <div class="container">
 
 	<div class="row">
-		<div class="col-lg-8">
+		<div class="col-lg-10">
 
 			<!-- the actual blog post: title/author/date/content -->
 			<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
