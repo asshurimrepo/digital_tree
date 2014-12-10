@@ -1,10 +1,15 @@
-<div id="contact">
+<?php
+	$contact_form = get_field('contact_form', 2);
+	echo $contact_form;
+?>
+
+<div id="contact hide">
 	<div class="spc-md"></div>
 	<div class="container">
 
 		<h1 class="center head-title">
 			contact us
-			<small>lorem ipsum dolor sit amet</small>
+<!--			<small>lorem ipsum dolor sit amet</small>-->
 
 			<img class="img-responsive center shadow" src="<?= asset( 'assets/img/shadow.png' ) ?>"/>
 		</h1>
