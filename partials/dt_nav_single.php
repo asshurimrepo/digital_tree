@@ -11,7 +11,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?=get_siteurl()?>"> <img style="height: 86px;margin-top: -36px;" src="<?=asset('assets/img/logo.svg')?>" class="img-responsive" alt="Alfareeda Logo"/></a>
+            <a class="navbar-brand" href="<?=site_url()?>"> <img style="height: 86px;margin-top: -36px;" src="<?=asset('assets/img/logo.svg')?>" class="img-responsive" alt="Alfareeda Logo"/></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
