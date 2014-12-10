@@ -115,6 +115,7 @@
 #mainwrapper .box .fade-caption, #mainwrapper .box .scale-caption {
   opacity: 0;
   width: 100%;
+  height: 100%;
   text-align: left;
   padding: 15px; }
 

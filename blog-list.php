@@ -7,8 +7,7 @@
 		<div id="box-6" class="box">
 			<img id="image-6" src="<?=$featured_image_url?>"/>
 			<span class="caption scale-caption">
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-					sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+				<p><?php the_excerpt(); ?></p>
 			</span>
 		</div>
 
