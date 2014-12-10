@@ -22,7 +22,7 @@
 			<?php endif; ?>
 			<hr>
 
-			<?php the_content(); ?>
+				<?php the_content(); ?>
 
 			<hr>
 
