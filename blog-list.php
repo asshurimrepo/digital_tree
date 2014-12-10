@@ -6,9 +6,11 @@
 		<div id="box-6" class="box">
 			<a href="<?php the_permalink() ?>"><img src="<?= asset( 'assets/img/profile-spc.png' ) ?>"/></a>
 <!--			<img id="image-6" src="--><?//=$featured_image_url?><!--"/>-->
-			<span class="caption scale-caption">
-				<p><?php echo wp_trim_words( get_the_content(), 10); ?></p>
-			</span>
+			<a href="<?php the_permalink() ?>">
+				<span class="caption scale-caption">
+					<p><?php echo wp_trim_words( get_the_content(), 25); ?></p>
+				</span>
+			</a>
 		</div>
 
 	</div>
