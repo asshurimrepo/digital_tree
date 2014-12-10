@@ -1,4 +1,4 @@
-<?php $services = get_field('services', 2); /*var_dump($services)*/; ?>
+<?php $services = get_field('services', 2); var_dump($services); ?>
 
 <section id="services" class="dark">
 	<div class="container">
