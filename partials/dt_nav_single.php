@@ -20,7 +20,7 @@
 
                 <?php foreach($main_nav as $nav): ?>
                     <li class="<?=is_active($nav->object_id)?>">
-                        <a href="<?=$nav->url?>"><?=$nav->title?></a>
+                        <a href="<?=site_url()?>/<?=$nav->url?>"><?=$nav->title?></a>
                     </li>
                 <?php endforeach; ?>
 
