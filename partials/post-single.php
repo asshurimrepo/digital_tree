@@ -42,9 +42,39 @@
 		</div>
 
 
-		<div class="col-lg-4">
+		<div class="col-lg-4"> 
+			<div class="well">
+				<h4><i class="fa fa-search"></i> Blog Search...</h4>
+				<div class="input-group">
+					<input type="text" class="form-control">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+	                            <i class="fa fa-search"></i>
+                            </button>
+                        </span>
+				</div>
+				<!-- /input-group -->
+			</div>
+			<!-- /well -->
 
-			<?php dynamic_sidebar( 'sidebar-1' ); ?>
+			<!-- /well -->
+			<div class="well">
+				<h4><i class="fa fa-thumbs-o-up"></i> Follow me!</h4>
+				<ul>
+					<p><a title="Facebook" href=""><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x"></i></span></a> <a title="Twitter" href=""><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x"></i></span></a> <a title="Google+" href=""><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-google-plus fa-stack-1x"></i></span></a> <a title="Linkedin" href=""><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x"></i></span></a> <a title="GitHub" href=""><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-github fa-stack-1x"></i></span></a> <a title="Bitbucket" href=""><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-bitbucket fa-stack-1x"></i></span></a></p>
+				</ul>
+			</div>
+			<!-- /well -->
+			<!-- /well -->
+			<div class="well">
+				<h4><i class="fa fa-fire"></i> Recent Posts:</h4>
+				<ul></ul>
+			</div>
+			<!-- /well -->
+
+			<!-- /well -->
+			<!-- /well -->
+
 
 		</div>
 	</div>
