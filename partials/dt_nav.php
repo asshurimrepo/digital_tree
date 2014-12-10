@@ -22,7 +22,7 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav onepager pull-right">
+            <ul class="nav navbar-nav onepager navbar-right">
 
                 <?php foreach($main_nav as $nav): ?>
                     <li class="<?=is_active($nav->object_id)?>">
