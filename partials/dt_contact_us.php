@@ -1,9 +1,8 @@
 <?php
 	$contact_form = get_field('contact_form', 2);
-	echo $contact_form;
 ?>
 
-<div id="contact hide">
+<div id="contact">
 	<div class="spc-md"></div>
 	<div class="container">
 
