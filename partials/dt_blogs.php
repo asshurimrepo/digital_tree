@@ -6,7 +6,7 @@
 
 		<div class="spc-md"></div>
 
-		<div class="container">
+		<div class="container" id="mainwrapper">
 
 			<h1 class="center head-title">
 				blogs
