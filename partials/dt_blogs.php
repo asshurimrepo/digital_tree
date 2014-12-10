@@ -21,7 +21,6 @@
 				<?php
 					if ( have_posts() ) : while ( have_posts() ) : the_post();
 
-						$featured_image_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
 						get_template_part('blog','list');
 
 					endwhile; endif;
