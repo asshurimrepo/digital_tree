@@ -1,5 +1,5 @@
 <?php
-	query_posts([]);
+	query_posts('posts_per_page=12');
 ?>
 
 	<div id="team" class="mid-dark">
