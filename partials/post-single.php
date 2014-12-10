@@ -20,7 +20,7 @@
 			<hr>
 			<?php if ( has_post_thumbnail() ) : ?>
 				<a class="media-left" href="#">
-					<?php the_post_thumbnail( array( 900 ) ); ?>
+					<?php the_post_thumbnail(); ?>
 				</a>
 			<?php endif; ?>
 			<hr>
