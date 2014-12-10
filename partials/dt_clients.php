@@ -6,7 +6,7 @@
 	<div class="spc-lg"></div>
 
 		<?php foreach($logos as $i=>$logo): ?>
-			<img src="<?=$logo['image']?>" style="height: <?=$i ? '60px' : '100px'?>; padding: 0 15px;" />
+			<img src="<?=$logo['image']?>" style="height: <?=$logo['size']?>px; padding: 0 15px;" />
 		<?php endforeach; ?>
 <!--	<img src="--><?//= asset( 'assets/img/clients.png' ) ?><!--" class="img-responsive" alt=""/>-->
 
