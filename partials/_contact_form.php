@@ -25,7 +25,7 @@
 			<textarea name="message" id="mesage" cols="30" rows="10"></textarea>
 
 			<div class="form-group">
-				<a class="btn btn-dark-red" href="#">send message</a>
+				<a class="btn btn-green" href="#">send message</a>
 			</div>
 
 		</div>

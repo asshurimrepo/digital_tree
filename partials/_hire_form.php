@@ -37,7 +37,7 @@
 					</div>
 
 					<div class="col-md-12 col-xs-6">
-						<a class="btn btn-dark-red" href="#">send a message</a>
+						<a class="btn btn-green" href="#">send a message</a>
 					</div>
 
 				</div>
