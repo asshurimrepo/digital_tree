@@ -1,5 +1,5 @@
 <?php
-	query_posts();
+	query_posts([]);
 ?>
 
 	<div id="team" class="mid-dark">
