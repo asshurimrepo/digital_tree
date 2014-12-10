@@ -16,7 +16,7 @@
 
 		<div class="col-md-4">
 
-			<img src="<?= asset( 'assets/img/logo2.svg' ) ?>" class="img-responsive" alt="Logo2"/>
+			<img src="<?= asset( 'assets/img/logo_footer.png' ) ?>" class="img-responsive" alt="Logo2"/>
 
 			<div class="spc-md"></div>
 
