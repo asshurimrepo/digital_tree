@@ -12,7 +12,7 @@
 			<p><i class="fa fa-calendar"></i> Posted on <?php the_time( 'F d, Y' ); ?> at <?php the_time( 'h:m A' ); ?>
 			</p>
 
-			<p><i class="fa fa-tags"></i> Tags: <?php the_tags('<span class="badge badge-info">','</span><span class="badge badge-info">','</span>'); ?>
+			<p><i class="fa fa-tags"></i> Tags: <?php the_tags('<span class="badge badge-info">','</span> <span class="badge badge-info">','</span>'); ?>
 
 			<hr>
 			<?php if ( has_post_thumbnail() ) : ?>
