@@ -43,8 +43,8 @@
 
 
 		<div class="col-lg-4">
-
-			<?php dynamic_sidebar( 'sidebar-1' ); ?>
+			<div class="spc-md"></div>
+			<?php get_sidebar(); ?>
 
 		</div>
 	</div>
