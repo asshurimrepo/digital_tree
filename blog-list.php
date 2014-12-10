@@ -2,7 +2,16 @@
 <div class="col-md-4">
 
 	<div class="profile" style="background-image: url(<?= $featured_image_url ?>);">
-		<a href="<?php the_permalink() ?>"><img src="<?= asset( 'assets/img/profile-spc.png' ) ?>"/></a>
+<!--		<a href="--><?php //the_permalink() ?><!--"><img src="--><?//= asset( 'assets/img/profile-spc.png' ) ?><!--"/></a>-->
+
+		<div id="box-6" class="box">
+			<img id="image-6" src="<?=$featured_image_url?>"/>
+			<span class="caption scale-caption">
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+					sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+			</span>
+		</div>
+
 	</div>
 
 	<div class="profile-info">
