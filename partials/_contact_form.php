@@ -1,4 +1,5 @@
-<form action="#" class="light-form form">
+<?=$contact_form?>
+<form action="#" class="light-form form" style="display: none">
 
 	<div class="row">
 
