@@ -17,3 +17,9 @@
 	) );
 
 
+	function my_wpcf7_dropdown_form($html) {
+		$text = 'Applying for?';
+		$html = str_replace('<option value="">---</option>', '<option value="">' . $text . '</option>', $html);
+		return $html;
+	}
+	add_filter('wpcf7_form_elements', 'my_wpcf7_dropdown_form');
