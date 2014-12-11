@@ -407,4 +407,8 @@ footer .socials a:hover {
 span.lead {
   letter-spacing: 2px; }
 
+img.captcha {
+  width: 100% !important;
+  height: 100% !important; }
+
 /*# sourceMappingURL=main.css.map */
