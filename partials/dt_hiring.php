@@ -17,7 +17,7 @@
 
 <!--					<h3 class="condensed">Web Developer</h3>-->
 <!--					<div class="spc-md"></div>-->
-					<p class="fw300">The Digital Tree seeks inside/outside web developers, designers, marketing directors, and salesperson. Excellent salary and commission. PREVIOUS EXPERIENCE NECESSARY. For submission of application, refer below.</p>
+					<p class="fw300">The Digital Tree is a company that is built around the digital world. It is a beacon of widespread knowledge in mobile network, optimization processes, development, data and analytics, the social media, etc. We seek to calibrate ideas for maximum efficiency pertaining to digital media and technology. We invite you to join our group – our group of competent and skilled workers – to expand the timely service of The Digital Tree in this era!</p>
 
 				</div>
 			</div>
