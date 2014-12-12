@@ -217,7 +217,10 @@
 
 @media (max-width: 767px) {
   figure.logo {
-    margin-bottom: 0 !important; } }
+    margin-bottom: 0 !important; }
+
+  .navbar-brand img {
+    height: 70px !important; } }
 body {
   font-weight: 300;
   font-size: 18px;
