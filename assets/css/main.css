@@ -217,7 +217,7 @@
 
 @media (max-width: 767px) {
   figure.logo {
-    margin-bottom: 0; } }
+    margin-bottom: 0 !important; } }
 body {
   font-weight: 300;
   font-size: 18px;
