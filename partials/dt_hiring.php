@@ -1,4 +1,4 @@
-
+<?php $now_hiring_text = get_field('now_hiring_text', 2); ?>
 <div id="hiring" class="dark">
 
 	<div class="container">
@@ -18,7 +18,7 @@
 
 <!--					<h3 class="condensed">Web Developer</h3>-->
 <!--					<div class="spc-md"></div>-->
-					<p class="fw300">The Digital Tree is a company that is built around the digital world. It is a beacon of widespread knowledge in mobile network, optimization processes, development, data and analytics, the social media, etc. We seek to calibrate ideas for maximum efficiency pertaining to digital media and technology. We invite you to join our group – our group of competent and skilled workers – to expand the timely service of The Digital Tree in this era!</p>
+					<p class="fw300"><?=$now_hiring_text?></p>
 
 				</div>
 			</div>
