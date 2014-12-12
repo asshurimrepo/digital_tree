@@ -217,7 +217,8 @@
 
 @media (max-width: 767px) {
   figure.logo {
-    margin-bottom: 0 !important; }
+    margin-bottom: -73px !important;
+    width: 280px; }
 
   .navbar-brand img {
     height: 70px !important; } }
