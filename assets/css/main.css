@@ -215,6 +215,9 @@
 #mainwrapper .box:hover .scale-caption h3, #mainwrapper .box:hover .scale-caption p {
   left: 0; }
 
+@media (max-width: 767px) {
+  figure.logo {
+    margin-bottom: 0; } }
 body {
   font-weight: 300;
   font-size: 18px;
