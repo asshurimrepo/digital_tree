@@ -1,6 +1,6 @@
 <?php global $main_nav; ?>
 
-<nav class="navbar navbar-default  main-navbar" role="navigation">
+<nav class="navbar navbar-default  main-navbar" role="navigation" id="home">
     <div class="container">
 
         <div class="row">
