@@ -1,4 +1,9 @@
-<?php $featured_image_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) ); ?>
+<?php
+
+	$featured_image_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
+	$meta = get_post_meta($post->ID);
+
+?>
 <div class="col-md-4">
 
 	<div class="profile" style="background-image: url(<?= $featured_image_url ?>);">
