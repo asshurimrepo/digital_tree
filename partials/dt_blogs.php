@@ -36,6 +36,7 @@
 
 					foreach($rss_items as $rss_item){
 
+						$item = $rss_item;
 						get_template_part('blog','rss');
 
 					}
