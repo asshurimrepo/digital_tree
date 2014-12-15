@@ -1,5 +1,8 @@
 <?php
+	$rss = get_field('rss_feeds', 2);
+	var_dump($rss);
 	query_posts('posts_per_page=12');
+
 ?>
 
 	<div id="team" class="mid-dark">
