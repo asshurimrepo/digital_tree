@@ -2,7 +2,11 @@
 
 	$featured_image_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
 	$meta = get_post_meta($post->ID);
-	var_dump(get_the_post_thumbnail($post->ID));
+
+	include_once(ABSPATH . WPINC . '/rss.php');
+	$rss = fetch_rss('http://mashable.com/social-media/rss');
+
+	var_dump($rss);
 
 ?>
 <div class="col-md-4">
