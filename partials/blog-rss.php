@@ -8,7 +8,7 @@
 ?>
 <div class="col-md-4">
 
-	<div class="profile" style="background-image: url(<?= $featured_image_url[0]?>);">
+	<div class="profile" style="background-image: url('<?= $featured_image_url[0]?>');">
 
 		<div id="box-6" class="box">
 			<a href="<?=$rss_item['link']?>"><img src="<?= asset( 'assets/img/profile-spc.png' ) ?>"/></a>
