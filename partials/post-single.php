@@ -18,7 +18,7 @@
 			<hr>
 			<?php if ( has_post_thumbnail() ) : ?>
 				<a class="media-left" href="#">
-					<?php the_post_thumbnail( 'large', [ 'class' => 'img-responsive' ] ); ?>
+					<?php the_post_thumbnail( 'large', array( 'class' => 'img-responsive' ) ); ?>
 				</a>
 			<?php endif; ?>
 			<hr>
