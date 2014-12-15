@@ -23,3 +23,15 @@
 		return $html;
 	}
 	add_filter('wpcf7_form_elements', 'my_wpcf7_dropdown_form');
+
+
+	function insertThumbnailRSS($content) {
+		global $post;
+		if ( has_post_thumbnail( $post->ID ) ){
+			$content = '' . get_the_post_thumbnail( $post->ID, 'big-thumb' ) . '' . $content;
+		}
+		return $content;
+	}
+
+	add_filter('the_excerpt_rss', 'insertThumbnailRSS');
+	add_filter('the_content_feed', 'insertThumbnailRSS');
