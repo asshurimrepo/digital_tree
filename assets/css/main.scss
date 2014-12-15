@@ -143,6 +143,11 @@ h2, h3 {
 .profile {
   background-size: cover;
   background-position: center;
+  transition: all 600ms;
+}
+
+.profile:hover{
+  background-size: 200%;
 }
 
 
