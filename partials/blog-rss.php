@@ -3,13 +3,15 @@
 	$reg_exUrl = "/(http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)?/";
 	preg_match($reg_exUrl, $rss_item['mash']['thumbnail'], $featured_image_url) ;
 
+
+
 ?>
 <div class="col-md-4">
 
 	<div class="profile" style="background-image: url(<?= $featured_image_url ?>);">
 
 		<div id="box-6" class="box">
-			<a href="<?=$rss_item['link']?>"><img src="<?= asset( 'assets/img/profile-spc.png' ) ?>"/></a>
+			<a href="<?=$rss_item['link']?>"><?=$rss_item['mash']['thumbnail']?></a>
 <!--			<img id="image-6" src="--><?//=$featured_image_url?><!--"/>-->
 			<a href="<?=$rss_item['link']?>">
 				<span class="caption scale-caption">
