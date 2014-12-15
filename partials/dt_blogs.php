@@ -35,8 +35,7 @@
 
 					foreach($rss_items as $rss_item){
 
-
-						include '../blog-rss.php';
+						include 'blog-rss.php';
 
 					}
 				?>
