@@ -1,5 +1,10 @@
 <?php
-	query_posts('posts_per_page=12&post_type=wprss_feed_item');
+	query_posts('posts_per_page=12&post_type=post');
+
+	include_once(ABSPATH . WPINC . '/rss.php');
+
+	$rss = fetch_rss('http://mashable.com/social-media/rss');
+	$rss_items = array_slice($rss, 0, 5);
 
 ?>
 
@@ -25,6 +30,12 @@
 						get_template_part('blog','list');
 
 					endwhile; endif;
+
+					foreach($rss_items as $rss_item){
+
+						get_template_part('blog','rss');
+
+					}
 				?>
 
 			</div>
