@@ -1,7 +1,5 @@
 <?php
-	$rss = get_field('rss_feeds', 2);
-	var_dump($rss);
-	query_posts('posts_per_page=12');
+	query_posts('posts_per_page=12&post_type=wprss_feed_item');
 
 ?>
 
