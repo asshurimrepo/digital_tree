@@ -13,7 +13,7 @@
 <!--			<img id="image-6" src="--><?//=$featured_image_url?><!--"/>-->
 			<a href="<?=$rss_item['link']?>">
 				<span class="caption scale-caption">
-					<p><?php echo wp_trim_words( $rss_item['description'], 25); ?></p>
+					<p><?php echo wp_trim_words( $rss_item['description'], 40); ?></p>
 				</span>
 			</a>
 		</div>

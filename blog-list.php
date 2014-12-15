@@ -14,7 +14,7 @@
 <!--			<img id="image-6" src="--><?//=$featured_image_url?><!--"/>-->
 			<a href="<?php the_permalink() ?>">
 				<span class="caption scale-caption">
-					<p><?php echo wp_trim_words( get_the_excerpt(), 50); ?></p>
+					<p><?php echo wp_trim_words( get_the_excerpt(), 40); ?></p>
 				</span>
 			</a>
 		</div>
