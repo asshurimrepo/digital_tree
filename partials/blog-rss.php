@@ -3,8 +3,6 @@
 	$reg_exUrl = "/https?\:\/\/[^\" ]+/i";
 	preg_match($reg_exUrl, $rss_item['mash']['thumbnail'], $featured_image_url) ;
 
-
-
 ?>
 <div class="col-md-4">
 
@@ -36,3 +34,8 @@
 	</div>
 
 </div>
+
+
+<?php if($i%3 == 2): ?>
+	<div class="spc-md col-md-12"></div>
+<?php endif; ?>

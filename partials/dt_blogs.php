@@ -33,7 +33,7 @@
 
 					endwhile; endif;
 
-					foreach($rss_items as $rss_item){
+					foreach($rss_items as $i => $rss_item){
 
 						include 'blog-rss.php';
 
