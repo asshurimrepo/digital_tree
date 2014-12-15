@@ -2,7 +2,6 @@
 	global $item;
 
 	$rss_item = $item;
-	var_dump($rss_item);
 
 	$reg_exUrl = "/(http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)?/";
 	preg_match($reg_exUrl, $rss_item['mash']['thumbnail'], $featured_image_url) ;
