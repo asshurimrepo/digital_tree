@@ -4,7 +4,7 @@
 	include_once(ABSPATH . WPINC . '/rss.php');
 
 	$rss = fetch_rss('http://mashable.com/social-media/rss');
-	$rss_items = array_slice($rss, 0, 5);
+	$rss_items = array_slice($rss->items, 0, 5);
 
 ?>
 
