@@ -35,3 +35,7 @@
 	</div>
 
 </div>
+
+<?php if($wp_query->current_post%3 == 2): ?>
+	<div class="spc-md col-md-12"></div>
+<?php endif; ?>
