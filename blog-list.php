@@ -5,8 +5,10 @@
 
 	include_once(ABSPATH . WPINC . '/rss.php');
 	$rss = fetch_rss('http://mashable.com/social-media/rss');
+	$maxitems = 5;
+	$items = array_slice($rss->items, 0, $maxitems);
 
-	var_dump($rss);
+	var_dump($items);
 
 ?>
 <div class="col-md-4">
