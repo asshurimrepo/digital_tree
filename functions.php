@@ -28,7 +28,7 @@
 	function insertThumbnailRSS($content) {
 		global $post;
 		if ( has_post_thumbnail( $post->ID ) ){
-			$content = '' . get_the_post_thumbnail( $post->ID, 'big-thumb' ) . '' . $content;
+			$content = '' . get_the_post_thumbnail( $post->ID ) . '' . $content;
 		}
 		return $content;
 	}

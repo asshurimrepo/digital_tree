@@ -2,6 +2,7 @@
 
 	$featured_image_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
 	$meta = get_post_meta($post->ID);
+	var_dump(get_the_post_thumbnail($post->ID));
 
 ?>
 <div class="col-md-4">
