@@ -6,7 +6,11 @@
 	$rss = fetch_rss('http://mashable.com/social-media/rss');
 	$rss_items = array_slice($rss->items, 0, 5);
 
+
+
 ?>
+
+	<pre><?php var_dump($rss->items); ?></pre>
 
 	<div id="team" class="mid-dark">
 
