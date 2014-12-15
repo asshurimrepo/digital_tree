@@ -321,7 +321,11 @@ h2, h3 {
 .profile {
   background-size: cover;
   background-position: center;
-  transition: all 600ms; }
+  transition: background-size 2s ease-in;
+  -moz-transition: background-size 2s ease-in;
+  -ms-transition: background-size 2s ease-in;
+  -o-transition: background-size 2s ease-in;
+  -webkit-transition: background-size 2s ease-in; }
 
 .profile:hover {
   background-size: 200%; }
