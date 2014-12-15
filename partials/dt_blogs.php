@@ -7,7 +7,6 @@
 	$rss_items = array_slice($rss->items, 0, 5);
 
 
-
 ?>
 
 
@@ -36,9 +35,8 @@
 
 					foreach($rss_items as $rss_item){
 
-						var_dump($rss_item);
 
-						get_template_part('blog','rss');
+						include 'blog-rss.php';
 
 					}
 				?>
