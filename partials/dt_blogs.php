@@ -10,7 +10,6 @@
 
 ?>
 
-	<pre><?php var_dump($rss->items); ?></pre>
 
 	<div id="team" class="mid-dark">
 
