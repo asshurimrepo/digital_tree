@@ -17,7 +17,7 @@
 		<div class="container" id="mainwrapper">
 
 			<h1 class="center head-title">
-				blogs
+				news feed
 				<!--			<small>lorem ipsum dolor sit amet</small>-->
 
 				<img class="img-responsive center shadow" src="<?= asset( 'assets/img/shadow.png' ) ?>"/>
