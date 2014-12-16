@@ -512,4 +512,10 @@ img.captcha {
   outline: none;
   outline-offset: 0px; }
 
+.no-pad-left {
+  padding-left: 0; }
+
+.no-pad-right {
+  padding-right: 0; }
+
 /*# sourceMappingURL=main.css.map */
