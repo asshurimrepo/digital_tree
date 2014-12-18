@@ -16,7 +16,7 @@
     <title><?php bloginfo('name'); ?>  <?php wp_title(); ?></title>
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-    <link rel="shortcut icon" href="<?=asset('img/favicon.ico')?>">
+    <link rel="shortcut icon" href="<?=asset('assets/img/favicon.ico')?>">
 
 <!-- Jquery -->
     <?=link_js('assets/jquery/jquery.min.js')?>
