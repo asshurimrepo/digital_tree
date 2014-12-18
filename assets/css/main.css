@@ -454,8 +454,8 @@ img.captcha {
 
 .btn-sunny {
   color: #fff;
-  background-color: #f4ad49;
-  border-bottom: 2px solid #c38a3a; }
+  background-color: #ED3923;
+  border-bottom: 2px solid #C72E1C; }
 
 .btn-sunny:hover, .btn-sky.active:focus, .btn-sunny:focus, .open > .dropdown-toggle.btn-sunny {
   color: #fff;
@@ -472,7 +472,7 @@ img.captcha {
 .btn-fresh {
   color: #fff;
   background-color: #5a9241;
-  border-bottom: 2px solid #41996c; }
+  border-bottom: 2px solid #446f31; }
 
 .btn-fresh:hover, .btn-sky.active:focus, .btn-fresh:focus, .open > .dropdown-toggle.btn-fresh {
   color: #fff;
