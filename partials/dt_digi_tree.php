@@ -78,9 +78,9 @@
 		</div>
 	</foreignObject>
 
-	<foreignObject class="node video" x="600" y="40" width="225" height="230">
+	<foreignObject class="node video" x="546" y="174" width="261" height="245">
 		<div>
-			<iframe width="100%" height="100%" src="//www.youtube.com/embed/JNBFt0GJ3Qg" frameborder="0" allowfullscreen></iframe>
+			<iframe width="100%" height="100%" src="//www.youtube.com/embed/JNBFt0GJ3Qg?autoplay=1&controls=0" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</foreignObject>
 </svg>
