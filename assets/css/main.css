@@ -5,8 +5,11 @@ body {
   background: #f8f8f8;
   font-family: 'Open Sans', sans-serif; }
 
+header {
+  background: url("../img/header-bg.jpg") no-repeat top center;
+  background-size: cover; }
+
 .main-navbar {
-  background-color: #fafafa;
   border: none;
   border-radius: 0;
   margin-bottom: 0; }
