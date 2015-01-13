@@ -139,7 +139,17 @@
 
 	<foreignObject class="node spot1" x="278" y="120" width="100%" height="100%">
 			<div>
-				<img src="<?=asset('assets/img/img2.jpg')?>" class="img2" />
+				<div class="owl-carousel owl-theme owl">
+					<div class="item">
+						<img src="<?=asset('assets/img/img2.jpg')?>" class="img2" />
+					</div>
+					<div class="item">
+						<img src="<?=asset('assets/img/img3.png')?>" class="img2" />
+					</div>
+					<div class="item">
+						<img src="<?=asset('assets/img/img4.jpg')?>" class="img2" />
+					</div>
+				</div>
 			</div>
 	</foreignObject>
 
