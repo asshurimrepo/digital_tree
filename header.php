@@ -32,14 +32,15 @@
     <?=link_css('style.css')?>
     <?=link_css('assets/css/main.css')?>
 
-    <!-- Main JS -->
-    <?=link_js('main.js')?>
-
 	<!--OWL-->
 	<?=link_css('assets/owl-carousel/owl.carousel.css')?>
 	<?=link_css('assets/owl-carousel/owl.theme.css')?>
 	<?=link_css('assets/owl-carousel/owl.transition.css')?>
 	<?=link_js('assets/owl-carousel/owl.carousel.js')?>
+
+	<!-- Main JS -->
+	<?=link_js('main.js')?>
+
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

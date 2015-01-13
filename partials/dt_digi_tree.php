@@ -109,14 +109,24 @@
 
 	<foreignObject class="node news-feed" x="20" y="40" width="225" height="230">
 		<div>
-			<small class="head">the digital tree</small>
-			<p>Hi, We’re The-digitaltree.
-				A <b>digital-forward
-					creative agency</b>
-				making brands live up
-				to their full potential.
-				That’s it. And this
-				is our website.</p>
+			<div class="owl-carousel owl-theme owl">
+
+				<div class="item">
+					<small class="head">the digital tree</small>
+					<p>Hi, We’re The-digitaltree.
+						A <b>digital-forward
+							creative agency</b>
+						making brands live up
+						to their full potential.
+						That’s it. And this
+						is our website.</p>
+				</div>
+				<div class="item">
+					<h2 class="text-center">DIGITAL TREE</h2>
+				</div>
+
+			</div>
+
 		</div>
 	</foreignObject>
 
