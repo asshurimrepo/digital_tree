@@ -47,7 +47,7 @@ $(function () {
 
     $(".owl").owlCarousel({
 
-        autoPlay: 2000,
+        autoPlay: Math.floor(Math.random() * (5000 - 2000 + 1)) + 2000,
         slideSpeed: 300,
         paginationSpeed: 300,
         singleItem: true,
