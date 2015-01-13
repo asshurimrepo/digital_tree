@@ -91,14 +91,14 @@
 			</div>
 	</foreignObject>
 
-	<foreignObject class="node spot2" x="189" y="298" width="100%" height="100%">
+	<foreignObject class="node spot2" x="189" y="298" width="157px" height="157px">
 		<div>
 			<img src="<?=asset('assets/img/img3.png')?>" class="img3" />
 		</div>
 	</foreignObject>
 
-	<foreignObject class="node spot3" x="189" y="298" width="100%" height="100%">
-		<div style="width: 157px; height: 157px;">
+	<foreignObject class="node spot3" x="189" y="298" width="157px" height="157px">
+		<div style="width: 157px; height: 157px; padding: 1px 5px; color:#FFF" class="text-center">
 			<h2 class="no-pad-top"><i class="fa fa-apple"></i></h2>
 			<p>APPS STORE OPTIMIZATION</p>
 		</div>
