@@ -220,6 +220,9 @@ img.captcha {
   font-size: 20px;
   padding: 0 5px; }
 
+.node.news-feed > small {
+  text-transform: uppercase; }
+
 .vid {
   position: relative;
   padding-bottom: 56.25%;
