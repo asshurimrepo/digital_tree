@@ -1,6 +1,6 @@
 <!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg class="img-responsive" version="1.1" id="Isolation_Mode" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-     y="0px" width="797.96px" height="610.924px" viewBox="0 0 797.96 610.924" enable-background="new 0 0 797.96 610.924"
+     y="0px" width="797.96px" height="100%" viewBox="0 0 797.96 610.924" enable-background="new 0 0 797.96 610.924"
      xml:space="preserve">
 	<g>
 		<path fill-rule="evenodd" clip-rule="evenodd" fill="#E6E6E6" id="sv_news_feed" d="M9.891,39.995c2.962-5.368,7.441-7.099,13.578-7.085
