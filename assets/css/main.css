@@ -9,8 +9,7 @@ header {
   background-image: url("../img/header-bottom.jpg"), url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-position: bottom center, top center;
-  background-size: contain, cover;
-  min-height: 600px; }
+  background-size: auto, cover; }
 
 header svg {
   margin: 90px auto 0px auto;
