@@ -66,9 +66,6 @@
 	</g>
 
 	<foreignObject class="node" x="46" y="22" width="200" height="300">
-		<body xmlns="http://www.w3.org/1999/xhtml">
-		<div>The quick brown fox jumps over the lazy dog. Pack my box with
-			five dozen liquor jugs</div>
-		</body>
+		<div></div>
 	</foreignObject>
 </svg>
