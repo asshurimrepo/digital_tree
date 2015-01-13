@@ -223,6 +223,13 @@ img.captcha {
 .node.news-feed > div > small {
   text-transform: uppercase; }
 
+.node.video > div {
+  height: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+  width: 245px; }
+
 .vid {
   position: relative;
   padding-bottom: 56.25%;
