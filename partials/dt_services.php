@@ -14,7 +14,7 @@
 		<div class="row text-center">
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 			     width="1143.114px" height="1061.867px" viewBox="0 0 1143.114 1061.867" enable-background="new 0 0 1143.114 1061.867"
-			     xml:space="preserve">
+			     xml:space="preserve" class="img-responsive visible-lg visible-md">
 <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M726.13,0c5.321,2.977,7.104,7.384,7.094,13.558
 	c-0.158,102.957-0.112,205.916-0.113,308.874c0,10.318-3.132,13.507-13.27,13.507c-103.125,0.001-206.249,0.001-309.374,0
 	c-10.146,0-13.276-3.186-13.276-13.504c-0.002-102.957,0.044-205.916-0.113-308.874C397.068,7.394,398.844,2.977,404.17,0
@@ -61,7 +61,7 @@
 		</div>
 
 
-		<div class="row hide">
+		<div class="row visible-sm visible-xs">
 
 
 			<?php foreach($services as $i=>$service): ?>
