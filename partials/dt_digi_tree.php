@@ -168,7 +168,7 @@
 				</div>
 				<div class="item">
 					<h2 class="no-pad-top"><i class="fa fa-mobile"></i></h2>
-					<p>MOBILE DEVELOPMENt</p>
+					<p>MOBILE DEVELOPMENT</p>
 				</div>
 				<div class="item">
 					<h2 class="no-pad-top"><i class="fa fa-android"></i></h2>
