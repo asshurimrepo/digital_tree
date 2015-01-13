@@ -97,7 +97,7 @@
 		</div>
 	</foreignObject>
 
-	<foreignObject class="node spot3" x="189" y="298" width="157px" height="157px">
+	<foreignObject class="node spot3" x="368" y="298" width="157px" height="157px">
 		<div style="width: 157px; height: 157px; padding: 1px 5px; color:#FFF" class="text-center">
 			<h2 class="no-pad-top"><i class="fa fa-apple"></i></h2>
 			<p>APPS STORE OPTIMIZATION</p>
