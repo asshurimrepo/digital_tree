@@ -85,8 +85,8 @@
 	</foreignObject>
 
 	<defs>
-		<pattern id="img1" patternUnits="userSpaceOnUse" width="100" height="100">
-			<image xlink:href="<?=asset('assets/img/img1.jpg')?>" x="0" y="0" width="158" height="158" />
+		<pattern id="img1" patternUnits="userSpaceOnUse" width="158" height="158">
+			<image xlink:href="<?=asset('assets/img/img1.jpg')?>" x="0" y="0" width="100%" height="100%" />
 		</pattern>
 	</defs>
 </svg>
