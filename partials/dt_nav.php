@@ -40,7 +40,8 @@
 		</div>
 	</nav>
 
-	<img src="<?=asset('assets/img/digi-tree.svg')?>" alt=""/>
+
+	<?php get_template_part( 'partials/dt_digi_tree' ); ?>
 
 
 </header>
