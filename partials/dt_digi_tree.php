@@ -77,4 +77,10 @@
 				is our website.</p>
 		</div>
 	</foreignObject>
+
+	<foreignObject class="node video" x="600" y="40" width="225" height="230">
+		<div>
+			<iframe width="100%" height="100%" src="//www.youtube.com/embed/JNBFt0GJ3Qg" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</foreignObject>
 </svg>
