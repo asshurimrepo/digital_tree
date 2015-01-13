@@ -35,7 +35,7 @@
 	<!--OWL-->
 	<?=link_css('assets/owl-carousel/owl.carousel.css')?>
 	<?=link_css('assets/owl-carousel/owl.theme.css')?>
-	<?=link_css('assets/owl-carousel/owl.transition.css')?>
+	<?=link_css('assets/owl-carousel/owl.transitions.css')?>
 	<?=link_js('assets/owl-carousel/owl.carousel.js')?>
 
 	<!-- Main JS -->
