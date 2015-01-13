@@ -85,8 +85,10 @@
 	</foreignObject>
 
 
-	<foreignObject class="node video" x="0" y="0" width="100%" height="100%">
-		<img src="<?=asset('assets/img/img2.jpg')?>" class="img2 hide" />
+	<foreignObject class="node spot1" x="0" y="0" width="100%" height="100%">
+			<div>
+				<img src="<?=asset('assets/img/img2.jpg')?>" class="img2 hide" />
+			</div>
 	</foreignObject>
 
 </svg>
