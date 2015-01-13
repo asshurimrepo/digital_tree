@@ -35,6 +35,12 @@
     <!-- Main JS -->
     <?=link_js('main.js')?>
 
+	<!--OWL-->
+	<?=link_css('assets/owl-carousel/owl.carousel.css')?>
+	<?=link_css('assets/owl-carousel/owl.theme.css')?>
+	<?=link_css('assets/owl-carousel/owl.transition.css')?>
+	<?=link_js('assets/owl-carousel/owl.carousel.js')?>
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
