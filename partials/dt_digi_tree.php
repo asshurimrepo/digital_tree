@@ -65,7 +65,16 @@
 		c8.091,0.017,11.757,3.773,11.78,11.984C166.869,317.296,166.853,324.618,166.853,331.941z"/>
 	</g>
 
-	<foreignObject class="node" x="46" y="22" width="200" height="300">
-		<div></div>
+	<foreignObject class="node news-feed" x="46" y="22" width="200" height="300">
+		<div>
+			<small class="head">the digital tree</small>
+			<p>Hi, We’re The-digitaltree.
+				A <b>digital-forward
+					creative agency</b>
+				making brands live up
+				to their full potential.
+				That’s it. And this
+				is our website.</p>
+		</div>
 	</foreignObject>
 </svg>
