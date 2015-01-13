@@ -85,9 +85,9 @@
 	</foreignObject>
 
 
-	<foreignObject class="node spot1" x="0" y="0" width="100%" height="100%">
+	<foreignObject class="node spot1" x="278" y="120" width="100%" height="100%">
 			<div>
-				<img src="<?=asset('assets/img/img2.jpg')?>" class="img2 hide" />
+				<img src="<?=asset('assets/img/img2.jpg')?>" class="img2" />
 			</div>
 	</foreignObject>
 
