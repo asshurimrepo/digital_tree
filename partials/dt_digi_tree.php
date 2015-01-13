@@ -97,4 +97,11 @@
 		</div>
 	</foreignObject>
 
+	<foreignObject class="node spot2" x="189" y="298" width="100%" height="100%">
+		<div style="width: 157px; height: 157px;">
+			<h2 class="no-pad-top"><i class="fa fa-apple"></i></h2>
+			<p>APPS STORE OPTIMIZATION</p>
+		</div>
+	</foreignObject>
+
 </svg>
