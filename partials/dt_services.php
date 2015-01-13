@@ -77,7 +77,7 @@
 				<p><?=$service['description']?></p>
 			</div>
 
-				<?php if($i%3 == 2): ?> <div class="col-md-12 spc-md"></div> <?php endif; ?>
+<!--				--><?php //if($i%3 == 2): ?><!-- <div class="col-md-12 spc-md"></div> --><?php //endif; ?>
 
 			<?php endforeach; ?>
 
