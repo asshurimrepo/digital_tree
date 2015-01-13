@@ -91,4 +91,10 @@
 			</div>
 	</foreignObject>
 
+	<foreignObject class="node spot2" x="278" y="120" width="100%" height="100%">
+		<div>
+			<img src="<?=asset('assets/img/img3.jpg')?>" class="img3" />
+		</div>
+	</foreignObject>
+
 </svg>
