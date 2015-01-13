@@ -112,7 +112,6 @@
 			<div class="owl-carousel owl-theme owl">
 
 				<div class="item">
-					<small class="head">the digital tree</small>
 					<p>Hi, We’re The-digitaltree.
 						A <b>digital-forward
 							creative agency</b>
