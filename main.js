@@ -47,6 +47,7 @@ $(function () {
 
     slide(".owl");
     slide(".owl2");
+    slide(".owl3");
 
 
 });

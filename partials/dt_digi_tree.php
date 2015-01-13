@@ -161,8 +161,24 @@
 
 	<foreignObject class="node spot3" x="368" y="298" width="157px" height="157px">
 		<div style="width: 157px; height: 157px; padding: 1px 5px; color:#FFF" class="text-center">
-			<h2 class="no-pad-top"><i class="fa fa-apple"></i></h2>
-			<p>APPS STORE OPTIMIZATION</p>
+			<div class="owl-carousel owl-theme owl3">
+				<div class="item">
+					<h2 class="no-pad-top"><i class="fa fa-apple"></i></h2>
+					<p>APPS STORE OPTIMIZATION</p>
+				</div>
+				<div class="item">
+					<h2 class="no-pad-top"><i class="fa fa-mobile"></i></h2>
+					<p>MOBILE DEVELOPMENt</p>
+				</div>
+				<div class="item">
+					<h2 class="no-pad-top"><i class="fa fa-android"></i></h2>
+					<p>ANDROID OPTIMIZATION</p>
+				</div>
+				<div class="item">
+					<h2 class="no-pad-top"><i class="fa fa-line-chart"></i></h2>
+					<p>MARKETING</p>
+				</div>
+			</div>
 		</div>
 	</foreignObject>
 
