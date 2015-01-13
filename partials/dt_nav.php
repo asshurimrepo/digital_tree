@@ -40,7 +40,7 @@
 		</div>
 	</nav>
 
-
+	<img src="<?=asset('assets/img/digi-tree.svg')?>" alt="Digital Tree"/>
 
 </header>
 <div class="shadow2"></div>
