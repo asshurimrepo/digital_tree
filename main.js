@@ -52,8 +52,7 @@ $(function () {
         paginationSpeed: 400,
         singleItem: true,
         pagination: false,
-        navigation: false,
-        rewindNav: false
+        navigation: false
 
 
     });
