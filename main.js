@@ -45,7 +45,14 @@ $(function () {
     });
 
 
-    $(".owl").owlCarousel({
+    slide(".owl");
+    slide(".owl2");
+
+
+});
+
+function slide(selector){
+    $(selector).owlCarousel({
 
         autoPlay: Math.floor(Math.random() * (5000 - 2000 + 1)) + 2000,
         slideSpeed: 300,
@@ -56,6 +63,4 @@ $(function () {
 
 
     });
-
-
-});
+}

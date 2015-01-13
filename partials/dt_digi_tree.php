@@ -139,7 +139,7 @@
 
 	<foreignObject class="node spot1" x="278" y="120" width="158" height="158">
 			<div>
-				<div class="owl-carousel owl-theme owl">
+				<div class="owl-carousel owl-theme owl2">
 					<div class="item">
 						<img src="<?=asset('assets/img/img2.jpg')?>" class="img2" />
 					</div>
