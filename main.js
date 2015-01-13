@@ -49,7 +49,7 @@ $(function () {
 
         autoPlay: 2000,
         slideSpeed: 300,
-        paginationSpeed: 400,
+        paginationSpeed: 300,
         singleItem: true,
         pagination: false,
         navigation: false
