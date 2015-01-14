@@ -27,6 +27,9 @@ header svg {
 #bs-example-navbar-collapse-1 ul.nav {
   background: #ececec; }
 
+li.home > a {
+  border: 1px solid #b6b6b6; }
+
 #bs-example-navbar-collapse-1 .navbar-right {
   background: #ececec; }
 
