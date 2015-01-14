@@ -3,7 +3,7 @@
 <section id="services" class="dark">
 	<div class="container">
 
-		<h1 class="center head-title white">
+		<h1 class="center head-title white wow fadeInDown">
 			our services
 <!--			<small>lorem ipsum dolor sit amet</small>-->
 
@@ -11,7 +11,7 @@
 		</h1>
 
 
-		<div class="row text-center">
+		<div class="row text-center wow fadeInUpBig">
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 			     width="1143.114px" height="1061.867px" viewBox="0 0 1143.114 1061.867" enable-background="new 0 0 1143.114 1061.867"
 			     xml:space="preserve" class="img-responsive visible-lg visible-md">
