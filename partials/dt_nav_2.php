@@ -18,7 +18,7 @@
 			<ul class="nav navbar-nav navbar-right">
 				<?php foreach($main_nav as $nav): ?>
 					<li class="<?=is_active($nav->object_id)?>">
-						<a href="<?=$nav->url?>"><?=$nav->title?></a>
+						<a data-anchor href="<?=$nav->url?>"><?=$nav->title?></a>
 					</li>
 				<?php endforeach; ?>
 			</ul>
