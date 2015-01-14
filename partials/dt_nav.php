@@ -6,7 +6,7 @@
 		<div class="row">
 
 			<div class="row">
-				<div class="col-md-12 hide">
+				<div class="col-md-12 visible-sm visible-xs">
 					<img src="<?=asset('assets/img/logo.svg')?>" class="img-responsive" alt="Alfareeda Logo"/>
 				</div>
 			</div>
@@ -26,13 +26,13 @@
 				<div class="row">
 
 
-					<div class="col-md-2">
+					<div class="col-md-2 visible-md visible-lg">
 						<ul class="nav navbar-nav onepager" style="width: 100%;">
 							<li><a href="#">&nbsp;</a></li>
 						</ul>
 					</div>
 
-					<div class="col-md-4 no-pad text-center">
+					<div class="col-md-4 no-pad text-center visible-md visible-lg">
 						<img src="<?=asset('assets/img/logo.svg')?>" class="logo" style="width: 100%;" alt="Alfareeda Logo"/>
 					</div>
 
