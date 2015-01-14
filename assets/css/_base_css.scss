@@ -28,8 +28,20 @@ header svg{
 
 }
 
+#bs-example-navbar-collapse-1{
+  margin-top: 100px;
+}
+
+#bs-example-navbar-collapse-1 ul.nav{
+  background: #ececec;
+}
+
 #bs-example-navbar-collapse-1 .navbar-right{
   background: #ececec;
+}
+
+#bs-example-navbar-collapse-1 .logo{
+  margin-top: -29%;
 }
 
 .main-navbar a{

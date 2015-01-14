@@ -34,7 +34,7 @@
 
 					<div class="col-md-4">
 						<ul class="nav navbar-nav " style="width:100%;">
-							<li class="text-center"><a href="#"><img src="<?=asset('assets/img/logo.svg')?>" class="img-responsive" style="max-width: 100%;" alt="Alfareeda Logo"/></a></li>
+							<li class="text-center"><a href="#"><img src="<?=asset('assets/img/logo.svg')?>" class="logo" style="max-width: 100%;" alt="Alfareeda Logo"/></a></li>
 						</ul>
 					</div>
 
