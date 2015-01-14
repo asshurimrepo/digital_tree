@@ -37,7 +37,6 @@
 
 	<div class="spc-md"></div>
 
-	<div class="arrow-top bounce" data-anchor><a href="#contact"><i class="fa fa-arrow-down"></i></a></div>
 
 
 </div>
