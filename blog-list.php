@@ -5,7 +5,7 @@
 	$meta = get_post_meta($post->ID);
 
 ?>
-<div class="col-md-4">
+<div class="col-md-4 wow bounceInDown">
 
 	<div class="profile" style="background-image: url(<?= $featured_image_url ?>);">
 
