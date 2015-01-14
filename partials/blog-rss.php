@@ -4,7 +4,7 @@
 	preg_match($reg_exUrl, $rss_item['mash']['thumbnail'], $featured_image_url) ;
 
 ?>
-<div class="col-md-4 wow lightSpeedIn lightSpeedOut">
+<div class="col-md-4 wow zoomInRight">
 
 	<div class="profile" style="background-image: url(<?=$featured_image_url[0]?>);">
 
