@@ -32,8 +32,8 @@
 						</ul>
 					</div>
 
-					<div class="col-md-4">
-						<img src="<?=asset('assets/img/logo.svg')?>" class="logo" style="max-width: 100%;" alt="Alfareeda Logo"/>
+					<div class="col-md-4 no-pad text-center">
+						<img src="<?=asset('assets/img/logo.svg')?>" class="logo" style="width: 100%;" alt="Alfareeda Logo"/>
 					</div>
 
 					<div class="col-md-6">
