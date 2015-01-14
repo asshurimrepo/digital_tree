@@ -41,7 +41,9 @@
 	</nav>
 
 
-	<?php get_template_part('digi-tree/digi-tree'); ?>
+	<div class="row" style="margin-top: 30px;">
+		<?php get_template_part('digi-tree/digi-tree'); ?>
+	</div>
 
 
 </header>
