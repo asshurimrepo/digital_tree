@@ -25,9 +25,16 @@
 			<div class="collapse navbar-collapse col-md-" id="bs-example-navbar-collapse-1">
 				<div class="container-fluid">
 
-					<div class="col-md-6">
+
+					<div class="col-md-2">
+						<ul class="nav navbar-nav onepager" style="width: 100%;">
+							<li><a href="#">&nbsp;</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-4">
 						<ul class="nav navbar-nav " style="width:100%;">
-							<li class="#"><a href="#"><img src="<?=asset('assets/img/logo.svg')?>" class="img-responsive" style="max-width: 200px;" alt="Alfareeda Logo"/></a></li>
+							<li class="text-center"><a href="#"><img src="<?=asset('assets/img/logo.svg')?>" class="img-responsive" style="max-width: 100%;" alt="Alfareeda Logo"/></a></li>
 						</ul>
 					</div>
 
