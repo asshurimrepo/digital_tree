@@ -95,6 +95,8 @@
 
 	<div class="spc-lg"></div>
 
+	<div class="arrow bounce" data-anchor><a href="#team"><i class="fa fa-arrow-down"></i></a></div>
+
 </section>
 
 <div class="shadow2"></div>
