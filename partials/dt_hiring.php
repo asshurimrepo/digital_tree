@@ -1,5 +1,5 @@
 <?php $now_hiring_text = get_field('now_hiring_text', 2); ?>
-<div id="hiring" class="dark">
+<div id="hiring" class="dark win-height" style="position: relative">
 
 	<div class="container">
 
@@ -36,6 +36,9 @@
 	</div>
 
 	<div class="spc-md"></div>
+
+	<div class="arrow-top bounce" data-anchor><a href="#contact"><i class="fa fa-arrow-down"></i></a></div>
+
 
 </div>
 
