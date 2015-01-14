@@ -16,7 +16,7 @@
 
 		<div class="container" id="mainwrapper">
 
-			<h1 class="center head-title">
+			<h1 class="center head-title wow zoomInDown">
 				news feed
 				<!--			<small>lorem ipsum dolor sit amet</small>-->
 
