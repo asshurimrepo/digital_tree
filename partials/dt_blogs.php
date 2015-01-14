@@ -10,7 +10,7 @@
 ?>
 
 
-	<div id="team" class="mid-dark">
+	<div id="team" class="mid-dark" style="position: relative">
 
 		<div class="spc-md"></div>
 
