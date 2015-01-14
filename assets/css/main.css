@@ -21,8 +21,11 @@ header svg {
   border-radius: 0;
   margin-bottom: 0; }
 
+#bs-example-navbar-collapse-1 {
+  background: #ececec; }
+
 .main-navbar a {
-  font-weight: 600 !important; }
+  font-weight: 300 !important; }
 
 a:hover {
   color: #ff7200; }
