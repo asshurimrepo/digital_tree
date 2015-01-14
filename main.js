@@ -39,7 +39,7 @@ $(function () {
         } else {
 
             $('html, body').stop().animate({
-                scrollTop: $(target).offset().top
+                scrollTop: $(target).offset().top - $(".navbar-hide").
             }, 800);
 
         }
