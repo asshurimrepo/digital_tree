@@ -426,8 +426,9 @@ img.captcha{
 
 .navbar-hide{
   transition: 1s all ease-out;
+  display: block !important;
 }
-.navbar-hide.hide{
+.navbar-hide.gone{
   margin-top: -100px;
 }
 .navbar-hide.show{
