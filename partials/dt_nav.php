@@ -23,16 +23,18 @@
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse col-md-" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav onepager navbar-right">
+				<div class="container">
+					<ul class="nav navbar-nav onepager navbar-right">
 
-<!--					<li><a href="--><?//=site_url()?><!--"><i class="fa fa-home"></i></a></li>-->
-					<?php foreach($main_nav as $nav): ?>
-						<li class="<?=is_active($nav->object_id)?>">
-							<a href="<?=$nav->url?>"><?=$nav->title?></a>
-						</li>
-					<?php endforeach; ?>
+						<!--					<li><a href="--><?//=site_url()?><!--"><i class="fa fa-home"></i></a></li>-->
+						<?php foreach($main_nav as $nav): ?>
+							<li class="<?=is_active($nav->object_id)?>">
+								<a href="<?=$nav->url?>"><?=$nav->title?></a>
+							</li>
+						<?php endforeach; ?>
 
-				</ul>
+					</ul>
+				</div>
 
 
 			</div><!-- /.navbar-collapse -->
