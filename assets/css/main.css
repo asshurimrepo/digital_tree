@@ -25,7 +25,8 @@ header svg {
   margin-top: 100px; }
 
 #bs-example-navbar-collapse-1 ul.nav {
-  background: #ececec; }
+  background: #ececec;
+  border: 1px solid #FFF; }
 
 #bs-example-navbar-collapse-1 .navbar-right {
   background: #ececec; }
