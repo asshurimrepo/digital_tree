@@ -7,7 +7,7 @@
 </style>
 
 <script>
-   AdobeEdge.loadComposition('digi-trees', 'EDGE-187302', {
+   AdobeEdge.loadComposition('<?=asset('digi-tree/digi-tree')?>', 'EDGE-187302', {
     scaleToFit: "both",
     centerStage: "both",
     minW: "0",
