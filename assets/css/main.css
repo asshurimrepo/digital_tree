@@ -21,7 +21,7 @@ header svg {
   border-radius: 0;
   margin-bottom: 0; }
 
-#bs-example-navbar-collapse-1 {
+#bs-example-navbar-collapse-1 > .navbar-right {
   background: #ececec; }
 
 .main-navbar a {
