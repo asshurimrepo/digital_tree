@@ -6,7 +6,7 @@
 	<div class="spc-md"></div>
 	<div class="container">
 
-		<h1 class="center head-title">
+		<h1 class="center head-title wow fadeIn">
 			contact us
 <!--			<small>lorem ipsum dolor sit amet</small>-->
 
@@ -14,13 +14,13 @@
 		</h1>
 
 
-		<div class="col-md-8">
+		<div class="col-md-8 wow slideInLeft">
 
 			<?php include('_contact_form.php'); ?>
 
 		</div>
 
-		<div class="col-md-4 text-right">
+		<div class="col-md-4 text-right slideinright">
 
 			<a href="#" style="color: #ff7200; font-size: 40px; margin:0 6px;"><i class="fa fa-facebook-square"></i></a>
 			<a href="#" style="color: #ff7200; font-size: 40px; margin:0 6px;"><i class="fa fa-twitter-square"></i></a>
