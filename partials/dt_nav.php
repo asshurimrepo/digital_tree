@@ -58,7 +58,7 @@
 
 
 	<div class="row" style="margin-top: 0px; position: relative; padding-bottom: 102px;">
-		<iframe src="<?=asset('digi-tree/digi-tree.html')?>" frameborder="0"></iframe>
+		<iframe style="width: 100%; min-height: 619px; margin-bottom: -10px;" src="<?=asset('digi-tree/digi-tree.html')?>" frameborder="0"></iframe>
 	</div>
 
 
