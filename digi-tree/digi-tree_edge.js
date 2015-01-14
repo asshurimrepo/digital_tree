@@ -1,6 +1,5 @@
 (function (compId) {
     var site_url = $('meta[name=site_url]').prop('content');
-    alert(site_url);
 
     var _ = null, y = true, n = false, zy = 'scaleY', x18 = 'rgba(255,255,255,0.00)', x5 = 'rgba(0,0,0,0)', e30 = '${Pasted5}', zx = 'scaleX', x4 = 'both', e22 = '${Pasted4}', e23 = '${root2}', x3 = '5.0.1.386', lf = 'left', e26 = '${Pasted112}', h = 'height', e29 = '${Pasted10}', x1 = '5.0.1', e27 = '${Pasted6}', x2 = '5.0.0', e25 = '${Pasted7}', w = 'width', tp = 'top', e28 = '${Pasted9}', g = 'image', e24 = '${Pasted2}', e19 = '${_1}', e21 = '${Pasted13}', e20 = '${Pasted8}';
     var g15 = 'Pasted9.svg', g14 = 'Pasted8.svg', g8 = 'Pasted2.svg', g11 = 'Pasted5.svg', g16 = 'Pasted10.svg', g17 = 'Pasted13.svg', g6 = 'root2.svg', g7 = '1.svg', g10 = 'Pasted4.svg', g9 = 'Pasted11.svg', g12 = 'Pasted6.svg', g13 = 'Pasted7.svg';
