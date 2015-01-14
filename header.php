@@ -33,6 +33,10 @@
     <?=link_css('style.css')?>
     <?=link_css('assets/css/main.css')?>
 
+	<!--WOW-->
+	<?=link_css('assets/wow/animate.css')?>
+	<?=link_js('assets/wow/wow.min.js')?>
+
 	<!--OWL-->
 	<?=link_css('assets/owl-carousel/owl.carousel.css')?>
 	<?=link_css('assets/owl-carousel/owl.theme.css')?>
