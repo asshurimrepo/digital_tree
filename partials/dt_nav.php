@@ -6,7 +6,7 @@
 		<div class="container-fluid">
 
 			<div class="row">
-				<div class="col-md-12 ">
+				<div class="col-md-12 hide">
 					<img src="<?=asset('assets/img/logo.svg')?>" class="img-responsive" alt="Alfareeda Logo"/>
 				</div>
 			</div>
@@ -24,9 +24,13 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse col-md-" id="bs-example-navbar-collapse-1">
 				<div class="container">
+
+					<ul class="nav navbar-nav ">
+						<li class="#"><a href="#"><img src="<?=asset('assets/img/logo.svg')?>" class="img-responsive" alt="Alfareeda Logo"/></a></li>
+					</ul>
+
 					<ul class="nav navbar-nav onepager navbar-right">
 
-						<!--					<li><a href="--><?//=site_url()?><!--"><i class="fa fa-home"></i></a></li>-->
 						<?php foreach($main_nav as $nav): ?>
 							<li class="<?=is_active($nav->object_id)?>">
 								<a href="<?=$nav->url?>"><?=$nav->title?></a>
