@@ -41,7 +41,7 @@
 	</nav>
 
 
-	<?php include('../digi-tree/digi-tree.html') ?>
+	<?php include('digi-tree/digi-tree.html') ?>
 
 
 </header>
