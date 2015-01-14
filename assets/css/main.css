@@ -28,7 +28,7 @@ header svg {
   background: #ececec; }
 
 li.home > a {
-  border: 1px solid #b6b6b6; }
+  border-left: 1px solid #b6b6b6; }
 
 #bs-example-navbar-collapse-1 .navbar-right {
   background: #ececec; }
