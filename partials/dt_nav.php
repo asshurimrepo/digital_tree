@@ -29,7 +29,7 @@
 						<li class="#"><a href="#"><img src="<?=asset('assets/img/logo.svg')?>" class="img-responsive" alt="Alfareeda Logo"/></a></li>
 					</ul>
 
-					<ul class="nav navbar-nav onepager navbar-right">
+					<ul class="nav navbar-nav onepager">
 
 						<?php foreach($main_nav as $nav): ?>
 							<li class="<?=is_active($nav->object_id)?>">
@@ -38,6 +38,8 @@
 						<?php endforeach; ?>
 
 					</ul>
+
+
 				</div>
 
 
