@@ -23,21 +23,25 @@
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse col-md-" id="bs-example-navbar-collapse-1">
-				<div class="container">
+				<div class="container-fluid">
 
-					<ul class="nav navbar-nav ">
-						<li class="#"><a href="#"><img src="<?=asset('assets/img/logo.svg')?>" class="img-responsive" alt="Alfareeda Logo"/></a></li>
-					</ul>
+					<div class="col-md-6">
+						<ul class="nav navbar-nav " style="width:100%;">
+							<li class="#"><a href="#"><img src="<?=asset('assets/img/logo.svg')?>" class="img-responsive" style="max-width: 200px;" alt="Alfareeda Logo"/></a></li>
+						</ul>
+					</div>
 
-					<ul class="nav navbar-nav onepager">
+					<div class="col-md-6">
+						<ul class="nav navbar-nav onepager" style="width: 100%;">
 
-						<?php foreach($main_nav as $nav): ?>
-							<li class="<?=is_active($nav->object_id)?>">
-								<a href="<?=$nav->url?>"><?=$nav->title?></a>
-							</li>
-						<?php endforeach; ?>
+							<?php foreach($main_nav as $nav): ?>
+								<li class="<?=is_active($nav->object_id)?>">
+									<a href="<?=$nav->url?>"><?=$nav->title?></a>
+								</li>
+							<?php endforeach; ?>
 
-					</ul>
+						</ul>
+					</div>
 
 
 				</div>
