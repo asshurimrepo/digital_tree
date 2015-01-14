@@ -140,7 +140,7 @@
 			<div>
 				<div class="owl-carousel owl-theme owl2">
 					<div class="item">
-						<img src="<?=asset('assets/img/img2.jpg')?>" class="img2" />
+						<img src="<?=asset('assets/img/img2 .jpg')?>" class="img2" />
 					</div>
 					<div class="item">
 						<img src="<?=asset('assets/img/img3.png')?>" class="img2" />
