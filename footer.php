@@ -14,7 +14,7 @@
 
 	<div class="container">
 
-		<div class="col-md-4">
+		<div class="col-md-4 wow fadeInLeft">
 
 			<img src="<?= asset( 'assets/img/logo_footer.png' ) ?>" class="img-responsive" alt="Logo2"/>
 
@@ -30,10 +30,10 @@
 
 			<div>
 				<ul class="menu text-right">
-					<li><a href="#services">our services</a></li>
-					<li><a href="#team">blogs</a></li>
-					<li><a href="#hiring">now hiring</a></li>
-					<li><a href="#contact">contact us</a></li>
+					<li class="wow flipInY" data-wow-delay=".1s"><a href="#services">our services</a></li>
+					<li class="wow flipInY" data-wow-delay=".2s"><a href="#team">blogs</a></li>
+					<li class="wow flipInY" data-wow-delay=".3s"><a href="#hiring">now hiring</a></li>
+					<li class="wow flipInY" data-wow-delay=".4s"><a href="#contact">contact us</a></li>
 				</ul>
 			</div>
 
