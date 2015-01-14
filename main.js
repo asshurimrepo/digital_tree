@@ -56,10 +56,10 @@ $(function () {
 
         if(window_top >= offset && ! show_menu){
             show_menu = true;
-            $(".navbar-hide").addClass('hide');
+            $(".navbar-hide").addClass('gone');
         }else if(window_top < offset){
             show_menu = false;
-            $(".navbar-hide").removeClass('hide');
+            $(".navbar-hide").removeClass('gone');
         }
 
     });
