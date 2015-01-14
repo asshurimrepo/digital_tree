@@ -2,7 +2,7 @@
 
 <div class="container center wow bounceInUp">
 	<div class="spc-md"></div>
-	<h2 class="condensed">partners</h2>
+	<h2 class="condensed wow fadeInDown">partners</h2>
 	<div class="spc-lg"></div>
 
 		<?php foreach($logos as $i=>$logo): ?>
