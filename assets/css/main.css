@@ -22,13 +22,13 @@ header svg {
   margin-bottom: 0; }
 
 #bs-example-navbar-collapse-1 {
-  margin-top: 100px; }
+  margin-top: 110px; }
 
 #bs-example-navbar-collapse-1 ul.nav {
   background: #ececec; }
 
 li.home > a {
-  border-left: 1px solid #b6b6b6; }
+  border-right: 1px solid #b6b6b6; }
 
 #bs-example-navbar-collapse-1 .navbar-right {
   background: #ececec; }
