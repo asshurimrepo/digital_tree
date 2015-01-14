@@ -46,9 +46,16 @@ $(function () {
     });
 
 
-    slide(".owl");
-    slide(".owl2");
-    slide(".owl3");
+    $(window).resize(function(){
+
+        var offset = $("#partners").offset().top;
+        var window_top = $(this).scrollTop();
+
+        if(window_top >= offset){
+            alert('show menu');
+        }
+
+    });
 
 
 });
