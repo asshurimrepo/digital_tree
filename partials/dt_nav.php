@@ -3,7 +3,7 @@
 <header>
 
 	<nav class="navbar navbar-default  main-navbar" role="navigation" id="home">
-		<div class="container-fluid">
+		<div class="row">
 
 			<div class="row">
 				<div class="col-md-12 hide">
