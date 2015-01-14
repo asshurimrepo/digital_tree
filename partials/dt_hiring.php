@@ -3,16 +3,16 @@
 
 	<div class="container">
 
-		<h1 class="center head-title white">
+		<h1 class="center head-title white wow tada">
 			now hiring
 <!--			<small>lorem ipsum dolor sit amet</small>-->
 
-			<img class="img-responsive center shadow" src="<?= asset( 'assets/img/shadow.png' ) ?>"/>
+			<img class="img-responsive center shadow wow fadeInLeft" src="<?= asset( 'assets/img/shadow.png' ) ?>"/>
 		</h1>
 
 		<div class="spc-md"></div>
 
-		<div class="row">
+		<div class="row wow rollIn">
 			<div class="col-md-10 col-md-offset-1">
 				<div class="featured-box">
 
@@ -28,7 +28,7 @@
 		</div>
 
 		<div class="spc-md"></div>
-		<img class="img-responsive center shadow" src="<?= asset( 'assets/img/shadow.png' ) ?>"/>
+		<img class="img-responsive center shadow wow zoomInUp" src="<?= asset( 'assets/img/shadow.png' ) ?>"/>
 
 		<?php include('_hire_form.php'); ?>
 
