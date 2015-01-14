@@ -41,7 +41,7 @@
 	</nav>
 
 
-	<div class="row" style="margin-top: 35px; position: relative; padding-bottom: 102px;">
+	<div class="row" style="margin-top: 20px; position: relative; padding-bottom: 102px;">
 		<?php get_template_part('digi-tree/digi-tree'); ?>
 	</div>
 
