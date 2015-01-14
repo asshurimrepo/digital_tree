@@ -11,8 +11,8 @@
     centerStage: "both",
     minW: "0",
     maxW: "undefined",
-    width: "798px",
-    height: "611px"
+    width: "698px",
+    height: "511px"
 }, {"dom":{}}, {"dom":{}});
 </script>
 <!--Adobe Edge Runtime End-->
