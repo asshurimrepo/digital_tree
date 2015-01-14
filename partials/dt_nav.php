@@ -27,6 +27,7 @@
 			<div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav onepager navbar-right">
 
+					<li><a href="<?=site_url()?>"><i class="fa fa-home"></i></a></li>
 					<?php foreach($main_nav as $nav): ?>
 						<li class="<?=is_active($nav->object_id)?>">
 							<a href="<?=$nav->url?>"><?=$nav->title?></a>
