@@ -425,5 +425,11 @@ img.captcha{
 
 
 .navbar-hide{
-  transition: 1s all;
+  transition: 1s all ease-out;
+}
+.navbar-hide.hide{
+  margin-top: -100px;
+}
+.navbar-hide.show{
+  margin-top: 0;
 }

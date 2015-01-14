@@ -316,7 +316,13 @@ img.captcha {
   animation: bounce 2s infinite; }
 
 .navbar-hide {
-  transition: 1s all; }
+  transition: 1s all ease-out; }
+
+.navbar-hide.hide {
+  margin-top: -100px; }
+
+.navbar-hide.show {
+  margin-top: 0; }
 
 .vid {
   position: relative;
