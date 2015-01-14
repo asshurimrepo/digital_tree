@@ -41,7 +41,7 @@
 	</nav>
 
 
-	<?php include('digi-tree/digi-tree.html') ?>
+	<?php get_template_part('digi-tree/digi-tree'); ?>
 
 
 </header>
