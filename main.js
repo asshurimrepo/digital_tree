@@ -2,6 +2,7 @@ $(function () {
 
     console.log('ALL RIGHT!');
 
+    new WOW().init();
 
     window.add_css_to_gf_forms = function () {
 

@@ -1,6 +1,6 @@
 <?php $logos = get_field('partner_logos', 2); ?>
 
-<div class="container center">
+<div class="container center wow bounceInUp">
 	<div class="spc-md"></div>
 	<h2 class="condensed">partners</h2>
 	<div class="spc-lg"></div>
