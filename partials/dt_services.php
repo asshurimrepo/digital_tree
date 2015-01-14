@@ -1,6 +1,6 @@
 <?php $services = get_field('services', 2); /*var_dump($services);*/ ?>
 
-<section id="services" class="dark">
+<section id="services" class="dark" style="position: relative;">
 	<div class="container">
 
 		<h1 class="center head-title white wow fadeInDown">
