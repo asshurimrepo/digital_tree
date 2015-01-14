@@ -23,7 +23,7 @@
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse col-md-" id="bs-example-navbar-collapse-1">
-				<div class="container-fluid">
+				<div class="row">
 
 
 					<div class="col-md-2">
