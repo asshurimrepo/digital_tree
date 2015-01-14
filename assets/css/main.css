@@ -291,7 +291,7 @@ img.captcha {
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px); } }
 .arrow {
-  position: fixed;
+  position: absolute;
   bottom: 30px;
   right: 50px;
   margin-left: -20px;
