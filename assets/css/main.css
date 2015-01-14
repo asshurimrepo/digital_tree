@@ -300,6 +300,16 @@ img.captcha {
   font-size: 50px;
   background-size: contain; }
 
+.arrow-top {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  margin-left: -20px;
+  width: 40px;
+  height: 40px;
+  font-size: 50px;
+  background-size: contain; }
+
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
