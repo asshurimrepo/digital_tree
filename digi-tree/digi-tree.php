@@ -1,6 +1,6 @@
 
 <!--Adobe Edge Runtime-->
-<script type="text/javascript" charset="utf-8" src="edge_includes/edge.5.0.1.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="<?=asset('digi-tree/edge_includes/edge.5.0.1.min.js')?>"></script>
 <style>
 .edgeLoad-EDGE-187302 { visibility:hidden; }
 </style>
