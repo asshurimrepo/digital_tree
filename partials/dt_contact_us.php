@@ -20,7 +20,7 @@
 
 		</div>
 
-		<div class="col-md-4 text-right slideinright">
+		<div class="col-md-4 text-right wow slideInRight">
 
 			<a href="#" style="color: #ff7200; font-size: 40px; margin:0 6px;"><i class="fa fa-facebook-square"></i></a>
 			<a href="#" style="color: #ff7200; font-size: 40px; margin:0 6px;"><i class="fa fa-twitter-square"></i></a>
