@@ -10,6 +10,20 @@
 					<img src="<?=asset('assets/img/logo.svg')?>" class="img-responsive" alt="Alfareeda Logo"/>
 				</div>
 			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse col-md-8" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav onepager navbar-right">
+					<!--					<li><a href="--><?//=site_url()?><!--"><i class="fa fa-home"></i></a></li>-->
+					<?php foreach($main_nav as $nav): ?>
+						<li class="<?=is_active($nav->object_id)?>">
+							<a href="<?=$nav->url?>"><?=$nav->title?></a>
+						</li>
+					<?php endforeach; ?>
+
+				</ul>
+
+			</div><!-- /.navbar-collapse -->
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -21,20 +35,7 @@
 				</button>
 			</div>
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse col-md-8" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav onepager navbar-right">
-<!--					<li><a href="--><?//=site_url()?><!--"><i class="fa fa-home"></i></a></li>-->
-					<?php foreach($main_nav as $nav): ?>
-						<li class="<?=is_active($nav->object_id)?>">
-							<a href="<?=$nav->url?>"><?=$nav->title?></a>
-						</li>
-					<?php endforeach; ?>
 
-				</ul>
-
-
-			</div><!-- /.navbar-collapse -->
 		</div>
 	</nav>
 
