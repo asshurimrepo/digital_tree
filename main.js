@@ -1,6 +1,9 @@
 $(function () {
 
+
     console.log('ALL RIGHT!');
+
+    var show_menu = false;
 
     new WOW().init();
 
@@ -46,13 +49,17 @@ $(function () {
     });
 
 
-    $(window).resize(function(){
+    $(window).scroll(function(){
 
         var offset = $("#partners").offset().top;
         var window_top = $(this).scrollTop();
 
-        if(window_top >= offset){
-            alert('show menu');
+        if(window_top >= offset && ! show_menu){
+            show_menu = true;
+
+        }else{
+            show_menu = false;
+
         }
 
     });

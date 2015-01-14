@@ -64,3 +64,4 @@
 <body>
 
 <?php get_template_part('partials/dt_nav'); ?>
+<?php get_template_part('partials/dt_nav_2'); ?>
