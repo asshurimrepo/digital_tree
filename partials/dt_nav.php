@@ -3,13 +3,11 @@
 <header>
 
 	<nav class="navbar navbar-default  main-navbar" role="navigation" id="home">
-		<div class="container">
+		<div class="container-fluid">
 
 			<div class="row">
-				<div class="col-md-12 ">
-					<figure class="logo">
-						<img src="<?=asset('assets/img/logo.svg')?>" class="img-responsive" alt="Alfareeda Logo"/>
-					</figure>
+				<div class="col-md-4 ">
+					<img src="<?=asset('assets/img/logo.svg')?>" class="img-responsive" alt="Alfareeda Logo"/>
 				</div>
 			</div>
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -24,10 +22,9 @@
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+			<div class="collapse navbar-collapse col-md-8" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav onepager navbar-right">
-
-					<li><a href="<?=site_url()?>"><i class="fa fa-home"></i></a></li>
+<!--					<li><a href="--><?//=site_url()?><!--"><i class="fa fa-home"></i></a></li>-->
 					<?php foreach($main_nav as $nav): ?>
 						<li class="<?=is_active($nav->object_id)?>">
 							<a href="<?=$nav->url?>"><?=$nav->title?></a>
