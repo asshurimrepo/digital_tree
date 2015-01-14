@@ -64,4 +64,4 @@
 
 </header>
 <div class="shadow2"></div>
-<div class="arrow bounce"><i class="fa fa-arrow-down"></i></div>
+<div class="arrow bounce"><a href="#down"><i class="fa fa-arrow-down"></i></a></div>
