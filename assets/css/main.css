@@ -315,6 +315,9 @@ img.captcha {
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite; }
 
+.navbar-hide {
+  transition: 1s all; }
+
 .vid {
   position: relative;
   padding-bottom: 56.25%;
