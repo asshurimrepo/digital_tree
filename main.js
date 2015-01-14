@@ -51,7 +51,7 @@ $(function () {
 
     $(window).scroll(function(){
 
-        var offset = $("#partners").offset().top;
+        var offset = $("#partners").offset().top - $(".navbar-hide").height();
         var window_top = $(this).scrollTop();
 
         if(window_top >= offset && ! show_menu){
