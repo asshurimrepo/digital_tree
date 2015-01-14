@@ -46,6 +46,8 @@
 
 		<div class="spc-lg"></div>
 
+		<div class="arrow-top bounce" data-anchor><a href="#hiring"><i class="fa fa-arrow-down"></i></a></div>
+
 	</div>
 
 	<div class="shadow2"></div>
