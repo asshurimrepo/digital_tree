@@ -32,11 +32,11 @@
 						</ul>
 					</div>
 
-					<div class="col-md-4 no-pad text-center visible-md visible-lg">
+					<div class="col-md-2 no-pad text-center visible-md visible-lg">
 						<img src="<?=asset('assets/img/logo.svg')?>" class="logo" style="width: 100%;" alt="Alfareeda Logo"/>
 					</div>
 
-					<div class="col-md-6">
+					<div class="col-md-8">
 						<ul class="nav navbar-nav onepager" style="width: 100%;">
 							<li class="home"><a href="<?=site_url()?>s"><i class="fa fa-home"></i></a></li>
 							<?php foreach($main_nav as $nav): ?>
