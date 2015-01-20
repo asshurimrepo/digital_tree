@@ -20,7 +20,8 @@
     <link rel="shortcut icon" href="<?=asset('assets/img/favicon.ico')?>">
 
 <!-- Jquery -->
-    <?=link_js('assets/jquery/jquery.min.js')?>
+    <?//=link_js('assets/jquery/jquery.min.js')?>
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 
 <!-- Bootstrap -->
     <?=link_css('assets/bootstrap/css/bootstrap.min.css')?>
