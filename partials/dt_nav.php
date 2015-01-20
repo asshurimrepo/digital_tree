@@ -64,4 +64,4 @@
 
 </header>
 <div class="shadow2"></div>
-<div class="arrow bounce" data-anchor><a href="#partners"><i class="fa fa-chevron-circle-up"></i></a></div>
+<div class="arrow bounce" data-anchor><a href="#partners"><i class="fa fa-chevron-circle-down"></i></a></div>
