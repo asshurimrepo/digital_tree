@@ -24,7 +24,6 @@
 
 			<a href="#" style="color: #ff7200; font-size: 40px; margin:0 6px;"><i class="fa fa-facebook-square"></i></a>
 			<a href="#" style="color: #ff7200; font-size: 40px; margin:0 6px;"><i class="fa fa-twitter-square"></i></a>
-
 			<p>
 				<h3>Email us</h3>
 				<span class="italic lead">info@the-digitaltree.com</span>
@@ -36,6 +35,7 @@
 				<span class="italic lead">Dubai</span>
 				<span class="italic lead">Internet</span>
 				<span class="italic lead">City</span>
+				<span class="italic lead">Building 14 office 117</span>
 
 			</p>
 		</div>
