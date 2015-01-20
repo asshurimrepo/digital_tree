@@ -58,7 +58,8 @@
 
 
 	<div class="row" style="margin-top: 0px; position: relative; padding-bottom: 102px;">
-		<iframe style="width: 100%; min-height: 619px; margin-bottom: -70px;" src="<?=asset('digi-tree/digi-tree.html')?>" frameborder="0"></iframe>
+		<img src="<?=asset('digital-tree/mobiletree.png')?>" alt="Digital Tree" class="img-responsive center"/>
+		<iframe class="hidden-xs hidden-sm" style="width: 100%; min-height: 619px; margin-bottom: -70px;" src="<?=asset('digi-tree/digi-tree.html')?>" frameborder="0"></iframe>
 	</div>
 
 
