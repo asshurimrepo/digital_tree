@@ -27,7 +27,7 @@
 					</h3>
 
 					<div class="spc-md"></div>
-					<p><?=$service['description']?></p>
+					<p class="text-center"><?=$service['description']?></p>
 				</div>
 
 			</div>
