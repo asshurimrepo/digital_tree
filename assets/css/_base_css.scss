@@ -319,12 +319,13 @@ img.captcha{
 
 
 /*Services*/
-#services .col-md-4{
+#services .item{
   background: #FFF;
   color: #222;
   padding: 15px;
   border-radius: 11px;
   margin-bottom: 10px;
+  min-height: 180px;
 }
 
 

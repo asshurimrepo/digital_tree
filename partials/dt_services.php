@@ -20,13 +20,16 @@
 
 			<div class="col-md-4">
 
-				<h3 class="fw800 center"><?=$service['icon']?>
-					<div class="spc-md"></div>
-					<?=$service['title']?>
-				</h3>
+				<div class="item">
+					<h3 class="fw800 center"><?=$service['icon']?>
+						<div class="spc-md"></div>
+						<?=$service['title']?>
+					</h3>
 
-				<div class="spc-md"></div>
-				<p><?//=$service['description']?></p>
+					<div class="spc-md"></div>
+					<p><?//=$service['description']?></p>
+				</div>
+
 			</div>
 
 				<?php if($i%3 == 2): ?> <div class="col-md-12 spc-md"></div> <?php endif; ?>
