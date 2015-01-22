@@ -57,4 +57,60 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    })("Preloader");
    //Edge symbol end:'Preloader'
 
+   //=========================================================
+   
+   //Edge symbol: 'services1'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 9008, function(sym, e) {
+         sym.play("loop");
+
+      });
+      //Edge binding end
+
+   })("services1");
+   //Edge symbol end:'services1'
+
+   //=========================================================
+   
+   //Edge symbol: 'services2'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 6409, function(sym, e) {
+         sym.play("loop");
+
+      });
+      //Edge binding end
+
+   })("services2");
+   //Edge symbol end:'services2'
+
+   //=========================================================
+   
+   //Edge symbol: 'services3'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 4562, function(sym, e) {
+         sym.play("loop");
+
+      });
+      //Edge binding end
+
+   })("services3");
+   //Edge symbol end:'services3'
+
+   //=========================================================
+   
+   //Edge symbol: 'services4'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 9461, function(sym, e) {
+         sym.play("loop");
+
+      });
+      //Edge binding end
+
+   })("services4");
+   //Edge symbol end:'services4'
+
 })(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-187302");

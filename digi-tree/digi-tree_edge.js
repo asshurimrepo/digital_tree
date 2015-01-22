@@ -36,17 +36,16 @@
                             transform: [[],[],[],['0.03','0.03']]
                         },
                         {
-                            id: '_1',
-                            type: 'image',
-                            rect: ['187px', '611px', '157px', '157px', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"1.svg",'0px','0px'],
-                            transform: [[],[],[],['0','0']]
+                            id: 'services2',
+                            symbolName: 'services2',
+                            type: 'rect',
+                            rect: ['0', '0', '0', '0', 'auto', 'auto']
                         },
                         {
-                            id: 'Pasted2',
-                            type: 'image',
-                            rect: ['367px', '301px', '157px', '157px', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"Pasted2.svg",'0px','0px']
+                            id: 'services3',
+                            symbolName: 'services3',
+                            type: 'rect',
+                            rect: ['0', '0', '0', '0', 'auto', 'auto']
                         },
                         {
                             id: 'video',
@@ -87,16 +86,16 @@
                             fill: ["rgba(0,0,0,0)",im+"Pasted7.svg",'0px','0px']
                         },
                         {
-                            id: 'Pasted8',
-                            type: 'image',
-                            rect: ['278px', '123px', '158px', '158px', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"Pasted8.svg",'0px','0px']
+                            id: 'services1',
+                            symbolName: 'services1',
+                            type: 'rect',
+                            rect: ['0', '0', '0', '0', 'auto', 'auto']
                         },
                         {
-                            id: 'Pasted9',
-                            type: 'image',
-                            rect: ['455px', '3px', '158px', '157px', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"Pasted9.svg",'0px','0px']
+                            id: 'services42',
+                            symbolName: 'services4',
+                            type: 'rect',
+                            rect: ['0', '0', '0', '0', 'auto', 'auto']
                         },
                         {
                             id: 'Pasted10',
@@ -130,29 +129,9 @@
                     }
                 },
                 timeline: {
-                    duration: 4095,
+                    duration: 9008.06640625,
                     autoPlay: true,
                     data: [
-                        [
-                            "eid6",
-                            "scaleX",
-                            0,
-                            1000,
-                            "easeOutElastic",
-                            "${_1}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid66",
-                            "scaleY",
-                            1908,
-                            1000,
-                            "easeOutElastic",
-                            "${Pasted8}",
-                            '0',
-                            '1'
-                        ],
                         [
                             "eid80",
                             "scaleX",
@@ -204,16 +183,6 @@
                             '4767px'
                         ],
                         [
-                            "eid10",
-                            "scaleY",
-                            394,
-                            1000,
-                            "easeOutElastic",
-                            "${Pasted2}",
-                            '0',
-                            '1'
-                        ],
-                        [
                             "eid62",
                             "top",
                             1838,
@@ -232,16 +201,6 @@
                             "${root2}",
                             '0.03',
                             '0.03'
-                        ],
-                        [
-                            "eid8",
-                            "top",
-                            88,
-                            912,
-                            "easeOutElastic",
-                            "${_1}",
-                            '611px',
-                            '301px'
                         ],
                         [
                             "eid60",
@@ -294,24 +253,14 @@
                             '277px'
                         ],
                         [
-                            "eid59",
+                            "eid82",
                             "top",
-                            1588,
-                            912,
+                            2640,
+                            1455,
                             "easeOutElastic",
-                            "${Pasted6}",
-                            '348px',
-                            '38px'
-                        ],
-                        [
-                            "eid71",
-                            "scaleY",
-                            2095,
-                            1000,
-                            "easeOutElastic",
-                            "${Pasted9}",
-                            '0',
-                            '1'
+                            "${Pasted13}",
+                            '611px',
+                            '301px'
                         ],
                         [
                             "eid146",
@@ -334,26 +283,6 @@
                             '1'
                         ],
                         [
-                            "eid73",
-                            "scaleX",
-                            2363,
-                            1000,
-                            "easeOutElastic",
-                            "${Pasted10}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid82",
-                            "top",
-                            2640,
-                            1455,
-                            "easeOutElastic",
-                            "${Pasted13}",
-                            '611px',
-                            '301px'
-                        ],
-                        [
                             "eid54",
                             "scaleX",
                             1250,
@@ -364,32 +293,12 @@
                             '1'
                         ],
                         [
-                            "eid9",
-                            "top",
-                            482,
-                            912,
-                            "easeOutElastic",
-                            "${Pasted2}",
-                            '611px',
-                            '301px'
-                        ],
-                        [
-                            "eid67",
-                            "top",
-                            1996,
-                            912,
-                            "easeOutElastic",
-                            "${Pasted8}",
-                            '432px',
-                            '123px'
-                        ],
-                        [
-                            "eid70",
+                            "eid73",
                             "scaleX",
-                            2095,
+                            2363,
                             1000,
                             "easeOutElastic",
-                            "${Pasted9}",
+                            "${Pasted10}",
                             '0',
                             '1'
                         ],
@@ -404,24 +313,14 @@
                             '1'
                         ],
                         [
-                            "eid53",
-                            "left",
-                            2095,
+                            "eid16",
+                            "height",
                             0,
-                            "easeOutElastic",
-                            "${Pasted4}",
-                            '456px',
-                            '456px'
-                        ],
-                        [
-                            "eid69",
-                            "left",
-                            2908,
-                            0,
-                            "easeOutElastic",
-                            "${Pasted8}",
-                            '278px',
-                            '278px'
+                            482,
+                            "easeOutCubic",
+                            "${root2}",
+                            '137px',
+                            '4767px'
                         ],
                         [
                             "eid21",
@@ -434,14 +333,23 @@
                             '0.03'
                         ],
                         [
-                            "eid72",
+                            "eid59",
                             "top",
-                            2183,
+                            1588,
                             912,
                             "easeOutElastic",
-                            "${Pasted9}",
-                            '313px',
-                            '3px'
+                            "${Pasted6}",
+                            '348px',
+                            '38px'
+                        ],
+                        [
+                            "eid23",
+                            "location",
+                            0,
+                            0,
+                            "easeOutQuad",
+                            "${root2}",
+                            [[398.33, 539.28, 0, 0, 0, 0,0],[398.33, 539.28, 0, 0, 0, 0,0]]
                         ],
                         [
                             "eid81",
@@ -454,13 +362,14 @@
                             '1'
                         ],
                         [
-                            "eid23",
-                            "location",
-                            0,
-                            0,
-                            "easeOutQuad",
-                            "${root2}",
-                            [[398.33, 539.28, 0, 0, 0, 0,0],[398.33, 539.28, 0, 0, 0, 0,0]]
+                            "eid52",
+                            "top",
+                            1183,
+                            912,
+                            "easeOutElastic",
+                            "${Pasted4}",
+                            '521px',
+                            '213px'
                         ],
                         [
                             "eid55",
@@ -483,26 +392,6 @@
                             '1'
                         ],
                         [
-                            "eid52",
-                            "top",
-                            1183,
-                            912,
-                            "easeOutElastic",
-                            "${Pasted4}",
-                            '521px',
-                            '213px'
-                        ],
-                        [
-                            "eid16",
-                            "height",
-                            0,
-                            482,
-                            "easeOutCubic",
-                            "${root2}",
-                            '137px',
-                            '4767px'
-                        ],
-                        [
                             "eid77",
                             "left",
                             4095,
@@ -513,14 +402,14 @@
                             '10px'
                         ],
                         [
-                            "eid7",
-                            "scaleY",
+                            "eid53",
+                            "left",
+                            2095,
                             0,
-                            1000,
                             "easeOutElastic",
-                            "${_1}",
-                            '0',
-                            '1'
+                            "${Pasted4}",
+                            '456px',
+                            '456px'
                         ],
                         [
                             "eid75",
@@ -543,16 +432,6 @@
                             '30px'
                         ],
                         [
-                            "eid65",
-                            "scaleX",
-                            1908,
-                            1000,
-                            "easeOutElastic",
-                            "${Pasted8}",
-                            '0',
-                            '1'
-                        ],
-                        [
                             "eid56",
                             "top",
                             1338,
@@ -561,16 +440,6 @@
                             "${Pasted5}",
                             '402px',
                             '92px'
-                        ],
-                        [
-                            "eid12",
-                            "scaleX",
-                            394,
-                            1000,
-                            "easeOutElastic",
-                            "${Pasted2}",
-                            '0',
-                            '1'
                         ]
                     ]
                 }
@@ -604,16 +473,6 @@
                     autoPlay: true,
                     data: [
                         [
-                            "eid129",
-                            "scaleX",
-                            750,
-                            1000,
-                            "easeOutElastic",
-                            "${RoundRect3}",
-                            '0',
-                            '1.56'
-                        ],
-                        [
                             "eid143",
                             "background-color",
                             1750,
@@ -624,8 +483,8 @@
                             'rgba(0,0,0,1.00)'
                         ],
                         [
-                            "eid127",
-                            "scaleY",
+                            "eid129",
+                            "scaleX",
                             750,
                             1000,
                             "easeOutElastic",
@@ -634,14 +493,24 @@
                             '1.56'
                         ],
                         [
-                            "eid133",
-                            "height",
-                            1750,
-                            0,
+                            "eid126",
+                            "top",
+                            838,
+                            912,
                             "easeOutElastic",
                             "${RoundRect3}",
-                            '157px',
-                            '157px'
+                            '444px',
+                            '49px'
+                        ],
+                        [
+                            "eid127",
+                            "scaleY",
+                            750,
+                            1000,
+                            "easeOutElastic",
+                            "${RoundRect3}",
+                            '0',
+                            '1.56'
                         ],
                         [
                             "eid141",
@@ -664,14 +533,14 @@
                             '158px'
                         ],
                         [
-                            "eid126",
-                            "top",
-                            838,
-                            912,
+                            "eid133",
+                            "height",
+                            1750,
+                            0,
                             "easeOutElastic",
                             "${RoundRect3}",
-                            '444px',
-                            '49px'
+                            '157px',
+                            '157px'
                         ]
                     ]
                 }
@@ -706,6 +575,599 @@
                     autoPlay: true,
                     data: [
 
+                    ]
+                }
+            },
+            "services1": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            id: 'Pasted8',
+                            type: 'image',
+                            rect: ['278px', '123px', '158px', '158px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/Pasted8.svg', '0px', '0px']
+                        },
+                        {
+                            rect: ['293px', '143px', '127px', '118px', 'auto', 'auto'],
+                            id: 'APPS-STORE-OPTIMIZATION',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/APPS-STORE-OPTIMIZATION.png', '0px', '0px']
+                        },
+                        {
+                            id: 'MOBILE--NETWORK-REPRESENTATION',
+                            type: 'image',
+                            rect: ['287px', '137px', '140px', '124px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/MOBILE--NETWORK-REPRESENTATION.png', '0px', '0px']
+                        },
+                        {
+                            id: 'MOBILE-MARKETING',
+                            type: 'image',
+                            rect: ['306px', '142px', '102px', '113px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/MOBILE-MARKETING.png', '0px', '0px']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            isStage: 'true',
+                            rect: [undefined, undefined, '0px', '0px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 9008.06640625,
+                    autoPlay: true,
+                    labels: {
+                        "loop": 2573
+                    },
+                    data: [
+                        [
+                            "eid67",
+                            "top",
+                            1996,
+                            912,
+                            "easeOutElastic",
+                            "${Pasted8}",
+                            '432px',
+                            '123px'
+                        ],
+                        [
+                            "eid69",
+                            "left",
+                            2908,
+                            0,
+                            "easeOutElastic",
+                            "${Pasted8}",
+                            '278px',
+                            '278px'
+                        ],
+                        [
+                            "eid162",
+                            "opacity",
+                            4501,
+                            999,
+                            "easeOutQuad",
+                            "${MOBILE--NETWORK-REPRESENTATION}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid163",
+                            "opacity",
+                            6358,
+                            485,
+                            "easeOutQuad",
+                            "${MOBILE--NETWORK-REPRESENTATION}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid66",
+                            "scaleY",
+                            1908,
+                            1000,
+                            "easeOutElastic",
+                            "${Pasted8}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid65",
+                            "scaleX",
+                            1908,
+                            1000,
+                            "easeOutElastic",
+                            "${Pasted8}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid164",
+                            "opacity",
+                            6666,
+                            999,
+                            "easeOutQuad",
+                            "${MOBILE-MARKETING}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid165",
+                            "opacity",
+                            8523,
+                            485,
+                            "easeOutQuad",
+                            "${MOBILE-MARKETING}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid157",
+                            "opacity",
+                            2573,
+                            863,
+                            "easeOutQuad",
+                            "${APPS-STORE-OPTIMIZATION}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid159",
+                            "opacity",
+                            4250,
+                            485,
+                            "easeOutQuad",
+                            "${APPS-STORE-OPTIMIZATION}",
+                            '1',
+                            '0'
+                        ]
+                    ]
+                }
+            },
+            "services2": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: ['187px', '611px', '157px', '157px', 'auto', 'auto'],
+                            id: '_1',
+                            transform: [[], [], [], ['0', '0']],
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/1.svg', '0px', '0px']
+                        },
+                        {
+                            rect: ['223px', '323px', '85px', '113px', 'auto', 'auto'],
+                            id: 'PAIDSEARCH',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/PAIDSEARCH.png', '0px', '0px']
+                        },
+                        {
+                            id: 'SOCIAL-MEDIA',
+                            type: 'image',
+                            rect: ['226px', '318px', '80px', '123px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/SOCIAL-MEDIA.png', '0px', '0px']
+                        },
+                        {
+                            id: 'WEB-DEVELOPEMENT',
+                            type: 'image',
+                            rect: ['202px', '330px', '127px', '99px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/WEB-DEVELOPEMENT.png', '0px', '0px']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            isStage: 'true',
+                            rect: [undefined, undefined, '0px', '0px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 6646.640625,
+                    autoPlay: true,
+                    labels: {
+                        "loop": 1000
+                    },
+                    data: [
+                        [
+                            "eid6",
+                            "scaleX",
+                            0,
+                            1000,
+                            "easeOutElastic",
+                            "${_1}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid8",
+                            "top",
+                            88,
+                            912,
+                            "easeOutElastic",
+                            "${_1}",
+                            '611px',
+                            '301px'
+                        ],
+                        [
+                            "eid7",
+                            "scaleY",
+                            0,
+                            1000,
+                            "easeOutElastic",
+                            "${_1}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid175",
+                            "opacity",
+                            2750,
+                            1000,
+                            "easeOutQuint",
+                            "${WEB-DEVELOPEMENT}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid176",
+                            "opacity",
+                            4250,
+                            500,
+                            "easeOutQuint",
+                            "${WEB-DEVELOPEMENT}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid173",
+                            "opacity",
+                            4647,
+                            1000,
+                            "easeOutQuint",
+                            "${SOCIAL-MEDIA}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid174",
+                            "opacity",
+                            6147,
+                            500,
+                            "easeOutQuint",
+                            "${SOCIAL-MEDIA}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid168",
+                            "opacity",
+                            1000,
+                            1000,
+                            "easeOutQuint",
+                            "${PAIDSEARCH}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid170",
+                            "opacity",
+                            2500,
+                            500,
+                            "easeOutQuint",
+                            "${PAIDSEARCH}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid189",
+                            "top",
+                            3887,
+                            0,
+                            "easeOutQuint",
+                            "${WEB-DEVELOPEMENT}",
+                            '330px',
+                            '330px'
+                        ],
+                        [
+                            "eid190",
+                            "left",
+                            3887,
+                            0,
+                            "easeOutQuint",
+                            "${WEB-DEVELOPEMENT}",
+                            '202px',
+                            '202px'
+                        ],
+                        [
+                            "eid188",
+                            "width",
+                            3887,
+                            0,
+                            "easeOutQuint",
+                            "${WEB-DEVELOPEMENT}",
+                            '127px',
+                            '127px'
+                        ],
+                        [
+                            "eid187",
+                            "height",
+                            3887,
+                            0,
+                            "easeOutQuint",
+                            "${WEB-DEVELOPEMENT}",
+                            '99px',
+                            '99px'
+                        ]
+                    ]
+                }
+            },
+            "services3": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            id: 'Pasted2',
+                            type: 'image',
+                            rect: ['367px', '301px', '157px', '157px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/Pasted2.svg', '0px', '0px']
+                        },
+                        {
+                            rect: ['406px', '318px', '80px', '123px', 'auto', 'auto'],
+                            id: 'SOCIAL-MEDIA',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/SOCIAL-MEDIA.png', '0px', '0px']
+                        },
+                        {
+                            id: 'BRAND--ANALYTICS',
+                            type: 'image',
+                            rect: ['397px', '323px', '97px', '114px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/BRAND-%26-ANALYTICS.png', '0px', '0px']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            isStage: 'true',
+                            rect: [undefined, undefined, '0px', '0px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 4562,
+                    autoPlay: true,
+                    labels: {
+                        "loop": 1287
+                    },
+                    data: [
+                        [
+                            "eid9",
+                            "top",
+                            482,
+                            912,
+                            "easeOutElastic",
+                            "${Pasted2}",
+                            '611px',
+                            '301px'
+                        ],
+                        [
+                            "eid10",
+                            "scaleY",
+                            394,
+                            1000,
+                            "easeOutElastic",
+                            "${Pasted2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid185",
+                            "opacity",
+                            2849,
+                            1000,
+                            "easeOutQuint",
+                            "${BRAND--ANALYTICS}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid186",
+                            "opacity",
+                            4270,
+                            292,
+                            "easeOutQuint",
+                            "${BRAND--ANALYTICS}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid177",
+                            "opacity",
+                            1287,
+                            1000,
+                            "easeOutQuint",
+                            "${SOCIAL-MEDIA}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid183",
+                            "opacity",
+                            2708,
+                            292,
+                            "easeOutQuint",
+                            "${SOCIAL-MEDIA}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid12",
+                            "scaleX",
+                            394,
+                            1000,
+                            "easeOutElastic",
+                            "${Pasted2}",
+                            '0',
+                            '1'
+                        ]
+                    ]
+                }
+            },
+            "services4": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            id: 'Pasted9',
+                            type: 'image',
+                            rect: ['455px', '3px', '158px', '157px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/Pasted9.svg', '0px', '0px']
+                        },
+                        {
+                            rect: ['470px', '19px', '127px', '118px', 'auto', 'auto'],
+                            id: 'APPS-STORE-OPTIMIZATION',
+                            opacity: '0',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/APPS-STORE-OPTIMIZATION.png', '0px', '0px']
+                        },
+                        {
+                            id: 'MOBILE--NETWORK-REPRESENTATION',
+                            type: 'image',
+                            rect: ['464px', '16px', '140px', '124px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/MOBILE--NETWORK-REPRESENTATION.png', '0px', '0px']
+                        },
+                        {
+                            id: 'MOBILE-MARKETING',
+                            type: 'image',
+                            rect: ['483px', '24px', '102px', '113px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/MOBILE-MARKETING.png', '0px', '0px']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            isStage: 'true',
+                            rect: [undefined, undefined, '0px', '0px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 9461.11328125,
+                    autoPlay: true,
+                    labels: {
+                        "loop": 3000
+                    },
+                    data: [
+                        [
+                            "eid206",
+                            "opacity",
+                            7299,
+                            863,
+                            "easeOutQuad",
+                            "${APPS-STORE-OPTIMIZATION}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid207",
+                            "opacity",
+                            8976,
+                            485,
+                            "easeOutQuad",
+                            "${APPS-STORE-OPTIMIZATION}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid71",
+                            "scaleY",
+                            2095,
+                            1000,
+                            "easeOutElastic",
+                            "${Pasted9}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid204",
+                            "opacity",
+                            3000,
+                            999,
+                            "easeOutQuad",
+                            "${MOBILE--NETWORK-REPRESENTATION}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid205",
+                            "opacity",
+                            4857,
+                            485,
+                            "easeOutQuad",
+                            "${MOBILE--NETWORK-REPRESENTATION}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid70",
+                            "scaleX",
+                            2095,
+                            1000,
+                            "easeOutElastic",
+                            "${Pasted9}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid202",
+                            "opacity",
+                            5088,
+                            999,
+                            "easeOutQuad",
+                            "${MOBILE-MARKETING}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid203",
+                            "opacity",
+                            6945,
+                            485,
+                            "easeOutQuad",
+                            "${MOBILE-MARKETING}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid72",
+                            "top",
+                            2183,
+                            912,
+                            "easeOutElastic",
+                            "${Pasted9}",
+                            '313px',
+                            '3px'
+                        ]
                     ]
                 }
             }
