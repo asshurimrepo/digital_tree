@@ -774,7 +774,7 @@
                     }
                 },
                 timeline: {
-                    duration: 6646.640625,
+                    duration: 10960.01953125,
                     autoPlay: true,
                     labels: {
                         "loop": 1000
@@ -813,8 +813,8 @@
                         [
                             "eid175",
                             "opacity",
-                            2750,
-                            1000,
+                            3913,
+                            1919,
                             "easeOutQuint",
                             "${WEB-DEVELOPEMENT}",
                             '0',
@@ -823,8 +823,8 @@
                         [
                             "eid176",
                             "opacity",
-                            4250,
-                            500,
+                            6791,
+                            959,
                             "easeOutQuint",
                             "${WEB-DEVELOPEMENT}",
                             '1',
@@ -833,8 +833,8 @@
                         [
                             "eid173",
                             "opacity",
-                            4647,
-                            1000,
+                            7648,
+                            1656,
                             "easeOutQuint",
                             "${SOCIAL-MEDIA}",
                             '0',
@@ -843,8 +843,8 @@
                         [
                             "eid174",
                             "opacity",
-                            6147,
-                            500,
+                            10132,
+                            828,
                             "easeOutQuint",
                             "${SOCIAL-MEDIA}",
                             '1',
@@ -854,7 +854,7 @@
                             "eid168",
                             "opacity",
                             1000,
-                            1000,
+                            1750,
                             "easeOutQuint",
                             "${PAIDSEARCH}",
                             '0',
@@ -863,37 +863,17 @@
                         [
                             "eid170",
                             "opacity",
-                            2500,
-                            500,
+                            3125,
+                            875,
                             "easeOutQuint",
                             "${PAIDSEARCH}",
                             '1',
                             '0'
                         ],
                         [
-                            "eid189",
-                            "top",
-                            3887,
-                            0,
-                            "easeOutQuint",
-                            "${WEB-DEVELOPEMENT}",
-                            '330px',
-                            '330px'
-                        ],
-                        [
-                            "eid190",
-                            "left",
-                            3887,
-                            0,
-                            "easeOutQuint",
-                            "${WEB-DEVELOPEMENT}",
-                            '202px',
-                            '202px'
-                        ],
-                        [
                             "eid188",
                             "width",
-                            3887,
+                            6094,
                             0,
                             "easeOutQuint",
                             "${WEB-DEVELOPEMENT}",
@@ -903,7 +883,7 @@
                         [
                             "eid187",
                             "height",
-                            3887,
+                            6094,
                             0,
                             "easeOutQuint",
                             "${WEB-DEVELOPEMENT}",
@@ -950,7 +930,7 @@
                     }
                 },
                 timeline: {
-                    duration: 4562,
+                    duration: 7338.24609375,
                     autoPlay: true,
                     labels: {
                         "loop": 1287
@@ -979,8 +959,8 @@
                         [
                             "eid185",
                             "opacity",
-                            2849,
-                            1000,
+                            4173,
+                            1848,
                             "easeOutQuint",
                             "${BRAND--ANALYTICS}",
                             '0',
@@ -989,8 +969,8 @@
                         [
                             "eid186",
                             "opacity",
-                            4270,
-                            292,
+                            6799,
+                            540,
                             "easeOutQuint",
                             "${BRAND--ANALYTICS}",
                             '1',
@@ -1000,7 +980,7 @@
                             "eid177",
                             "opacity",
                             1287,
-                            1000,
+                            1786,
                             "easeOutQuint",
                             "${SOCIAL-MEDIA}",
                             '0',
@@ -1009,8 +989,8 @@
                         [
                             "eid183",
                             "opacity",
-                            2708,
-                            292,
+                            3825,
+                            522,
                             "easeOutQuint",
                             "${SOCIAL-MEDIA}",
                             '1',
