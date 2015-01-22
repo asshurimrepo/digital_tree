@@ -13,7 +13,7 @@
 
 
 
-		<div class="row fadeInUpBig">
+		<div class="row wow fadeInUpBig">
 
 
 			<?php foreach($services as $i=>$service): ?>
