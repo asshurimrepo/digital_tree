@@ -28,12 +28,10 @@
                 content: {
                     dom: [
                         {
-                            id: 'root2',
-                            type: 'image',
-                            rect: ['354px', '468px', '4767px', '4767px', 'auto', 'auto'],
-                            autoOrient: true,
-                            fill: ["rgba(0,0,0,0)",im+"root2.svg",'0px','0px'],
-                            transform: [[],[],[],['0.03','0.03']]
+                            id: 'root',
+                            symbolName: 'root',
+                            type: 'rect',
+                            rect: ['397', '537', '3', '4', 'auto', 'auto']
                         },
                         {
                             id: 'services2',
@@ -129,7 +127,7 @@
                     }
                 },
                 timeline: {
-                    duration: 9008.06640625,
+                    duration: 10960.01953125,
                     autoPlay: true,
                     data: [
                         [
@@ -173,16 +171,6 @@
                             '1'
                         ],
                         [
-                            "eid17",
-                            "width",
-                            0,
-                            482,
-                            "easeOutCubic",
-                            "${root2}",
-                            '85px',
-                            '4767px'
-                        ],
-                        [
                             "eid62",
                             "top",
                             1838,
@@ -191,16 +179,6 @@
                             "${Pasted7}",
                             '347px',
                             '37px'
-                        ],
-                        [
-                            "eid20",
-                            "scaleX",
-                            0,
-                            0,
-                            "easeOutElastic",
-                            "${root2}",
-                            '0.03',
-                            '0.03'
                         ],
                         [
                             "eid60",
@@ -313,26 +291,6 @@
                             '1'
                         ],
                         [
-                            "eid16",
-                            "height",
-                            0,
-                            482,
-                            "easeOutCubic",
-                            "${root2}",
-                            '137px',
-                            '4767px'
-                        ],
-                        [
-                            "eid21",
-                            "scaleY",
-                            0,
-                            0,
-                            "easeOutElastic",
-                            "${root2}",
-                            '0.03',
-                            '0.03'
-                        ],
-                        [
                             "eid59",
                             "top",
                             1588,
@@ -341,15 +299,6 @@
                             "${Pasted6}",
                             '348px',
                             '38px'
-                        ],
-                        [
-                            "eid23",
-                            "location",
-                            0,
-                            0,
-                            "easeOutQuad",
-                            "${root2}",
-                            [[398.33, 539.28, 0, 0, 0, 0,0],[398.33, 539.28, 0, 0, 0, 0,0]]
                         ],
                         [
                             "eid81",
@@ -1147,6 +1096,87 @@
                             "${Pasted9}",
                             '313px',
                             '3px'
+                        ]
+                    ]
+                }
+            },
+            "root": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: ['-43px', '-69px', '4767px', '4767px', 'auto', 'auto'],
+                            transform: [[], [], [], ['0.03', '0.03']],
+                            id: 'root2',
+                            type: 'image',
+                            autoOrient: 'true',
+                            fill: ['rgba(0,0,0,0)', 'images/root2.svg', '0px', '0px']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            isStage: 'true',
+                            rect: [undefined, undefined, '3px', '4px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 482,
+                    autoPlay: true,
+                    data: [
+                        [
+                            "eid21",
+                            "scaleY",
+                            0,
+                            0,
+                            "easeOutElastic",
+                            "${root2}",
+                            '0.03',
+                            '0.03'
+                        ],
+                        [
+                            "eid17",
+                            "width",
+                            0,
+                            482,
+                            "easeOutCubic",
+                            "${root2}",
+                            '85px',
+                            '4767px'
+                        ],
+                        [
+                            "eid23",
+                            "location",
+                            0,
+                            0,
+                            "easeOutQuad",
+                            "${root2}",
+                            [[1.28, 2.07, 0, 0, 0, 0,0],[1.28, 2.07, 0, 0, 0, 0,0]]
+                        ],
+                        [
+                            "eid16",
+                            "height",
+                            0,
+                            482,
+                            "easeOutCubic",
+                            "${root2}",
+                            '137px',
+                            '4767px'
+                        ],
+                        [
+                            "eid20",
+                            "scaleX",
+                            0,
+                            0,
+                            "easeOutElastic",
+                            "${root2}",
+                            '0.03',
+                            '0.03'
                         ]
                     ]
                 }

@@ -113,4 +113,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    })("services4");
    //Edge symbol end:'services4'
 
+   //=========================================================
+   
+   //Edge symbol: 'root'
+   (function(symbolName) {   
+   
+   })("root");
+   //Edge symbol end:'root'
+
 })(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-187302");
