@@ -76,7 +76,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'services2'
    (function(symbolName) {   
    
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 6409, function(sym, e) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 9304, function(sym, e) {
          sym.play("loop");
 
       });
@@ -90,7 +90,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'services3'
    (function(symbolName) {   
    
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 4562, function(sym, e) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 7338, function(sym, e) {
          sym.play("loop");
 
       });
