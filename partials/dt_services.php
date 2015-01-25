@@ -24,6 +24,16 @@
 					<p><?=$services[0]['description']?></p>
 				</div>
 
+				<div class="item text-center">
+					<h3 class="fw800 center">
+						<?=$services[3]['icon']?>
+						<div class="spc-sm"></div>
+						<?=$services[3]['title']?>
+					</h3>
+					<div class="spc-md"></div>
+					<p><?=$services[3]['description']?></p>
+				</div>
+
 			</div>
 
 			<div class="col-md-4">
@@ -38,6 +48,26 @@
 					<p><?=$services[1]['description']?></p>
 				</div>
 
+				<div class="item text-center">
+					<h3 class="fw800 center">
+						<?=$services[4]['icon']?>
+						<div class="spc-sm"></div>
+						<?=$services[4]['title']?>
+					</h3>
+					<div class="spc-md"></div>
+					<p><?=$services[4]['description']?></p>
+				</div>
+
+				<div class="item text-center">
+					<h3 class="fw800 center">
+						<?=$services[6]['icon']?>
+						<div class="spc-sm"></div>
+						<?=$services[6]['title']?>
+					</h3>
+					<div class="spc-md"></div>
+					<p><?=$services[6]['description']?></p>
+				</div>
+
 			</div>
 
 			<div class="col-md-4">
@@ -50,6 +80,16 @@
 					</h3>
 					<div class="spc-md"></div>
 					<p><?=$services[2]['description']?></p>
+				</div>
+
+				<div class="item text-center">
+					<h3 class="fw800 center">
+						<?=$services[5]['icon']?>
+						<div class="spc-sm"></div>
+						<?=$services[5]['title']?>
+					</h3>
+					<div class="spc-md"></div>
+					<p><?=$services[5]['description']?></p>
 				</div>
 
 			</div>
