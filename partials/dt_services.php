@@ -30,17 +30,29 @@
 
 				<div class="item text-center">
 					<h3 class="fw800 center">
-						<i class="fa fa-mobile"></i>
+						<?=$services[1]['icon']?>
 						<div class="spc-sm"></div>
-						Mobile Network Representation
+						<?=$services[1]['title']?>
 					</h3>
 					<div class="spc-md"></div>
-					<p>Due to low duration of connections in mobile computing, mobile network representation has been conceptualized. As more traffic has occurred in the Internet and congestion in data, there is also a heavier need to sort things and keep them flowing. In other words, user mobility/encounter pattern prediction in the future is a vital character and needs to be optimized.</p>
+					<p><?=$services[1]['description']?></p>
 				</div>
 
 			</div>
 
-			<div class="col-md-4"></div>
+			<div class="col-md-4">
+
+				<div class="item text-center">
+					<h3 class="fw800 center">
+						<?=$services[2]['icon']?>
+						<div class="spc-sm"></div>
+						<?=$services[2]['title']?>
+					</h3>
+					<div class="spc-md"></div>
+					<p><?=$services[2]['description']?></p>
+				</div>
+
+			</div>
 		</div>
 
 	</div>
