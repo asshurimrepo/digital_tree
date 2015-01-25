@@ -239,6 +239,9 @@ img.captcha {
   margin-bottom: 10px;
   min-height: 180px; }
 
+#services .item p {
+  font-size: 16px; }
+
 /*SVG*/
 .node.news-feed {
   font-size: 20px;
