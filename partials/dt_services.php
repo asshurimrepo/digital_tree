@@ -14,6 +14,8 @@
 		<div class="row wow fadeInUpBig">
 			<div class="col-md-4">
 
+				<div class="spc-lg"></div>
+
 				<div class="item text-center">
 					<h3 class="fw800 center">
 						<?=$services[0]['icon']?>
@@ -71,6 +73,8 @@
 			</div>
 
 			<div class="col-md-4">
+
+				<div class="spc-lg"></div>
 
 				<div class="item text-center">
 					<h3 class="fw800 center">
