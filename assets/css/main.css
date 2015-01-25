@@ -243,7 +243,7 @@ img.captcha {
   font-size: 16px; }
 
 #services .item .spc-lg {
-  margin: 40px; }
+  height: 100px !important; }
 
 /*SVG*/
 .node.news-feed {
