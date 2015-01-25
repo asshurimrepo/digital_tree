@@ -242,6 +242,9 @@ img.captcha {
 #services .item p {
   font-size: 16px; }
 
+#services .item .spc-lg {
+  margin: 40px; }
+
 /*SVG*/
 .node.news-feed {
   font-size: 20px;
