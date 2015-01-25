@@ -11,7 +11,7 @@
 		</h1>
 
 
-		<div class="row">
+		<div class="row wow fadeInUpBig">
 			<div class="col-md-4"></div>
 
 			<div class="col-md-4">
