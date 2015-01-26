@@ -35,10 +35,9 @@
 
 				<div class="col-md-8">
 					<ul class="nav navbar-nav onepager" style="width: 100%;">
-						<li class="home"><a href="<?=site_url()?>s"><i class="fa fa-home"></i></a></li>
 						<?php foreach($main_nav as $nav): ?>
 							<li class="<?=is_active($nav->object_id)?>">
-								<a href="<?=$nav->url?>"><?=$nav->title?></a>
+								<a style="padding-left: 10px;" href="<?=$nav->url?>"><?=$nav->title?></a>
 							</li>
 						<?php endforeach; ?>
 
