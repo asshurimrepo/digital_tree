@@ -34,7 +34,7 @@
 				</div>
 
 				<div class="col-md-8">
-					<ul class="nav navbar-nav onepager" style="width: 100%;">
+					<ul class="nav navbar-nav onepager" style="width: 100%; margin:0">
 						<?php foreach($main_nav as $nav): ?>
 							<li class="<?=is_active($nav->object_id)?>">
 								<a style="padding-left: 10px;" href="<?=$nav->url?>"><?=$nav->title?></a>
