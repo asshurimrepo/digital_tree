@@ -42,6 +42,8 @@ $(function () {
                 scrollTop: $(target).offset().top - $(".navbar-hide").height()
             }, 800);
 
+            $("#bs-navbar-collapse-1").collapse('hide');
+
         }
 
         console.log(target);
