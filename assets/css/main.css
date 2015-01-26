@@ -578,6 +578,15 @@ img.captcha {
 
   .navbar-brand img {
     height: 70px !important; } }
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .wow {
+    visibility: visible !important;
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important; } }
 .btn {
   box-shadow: 1px 1px 5px #888888; }
 

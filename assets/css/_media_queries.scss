@@ -11,3 +11,14 @@
 
 }
 
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+    .wow {
+      visibility: visible !important;
+      -webkit-animation: none !important;
+      -moz-animation: none !important;
+      -o-animation: none !important;
+      -ms-animation: none !important;
+      animation: none !important;
+    }
+}
