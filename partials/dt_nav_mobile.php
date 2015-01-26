@@ -1,3 +1,4 @@
+<?php global $main_nav; ?>
 <nav class="navbar navbar-default visible-xs visible-sm" role="navigation">
 	<div class="row">
 
