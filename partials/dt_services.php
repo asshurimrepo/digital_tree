@@ -14,7 +14,7 @@
 		<div class="row">
 			<div class="col-sm-4">
 
-				<div class="spc-lg"></div>
+				<div class="spc-lg hidden-xs"></div>
 
 				<div class="item wow fadeInUpBig text-center">
 					<h3 class="fw800 center">
@@ -74,7 +74,7 @@
 
 			<div class="col-sm-4">
 
-				<div class="spc-lg"></div>
+				<div class="spc-lg hidden-xs"></div>
 
 				<div class="item wow fadeInUpBig text-center">
 					<h3 class="fw800 center">
