@@ -25,6 +25,7 @@ $(function () {
     $(window).resize(window.make_home_bg_equal_to_window);
     $(window).scroll(window.add_paralax_while_scrolling);
 
+    var flag = 0;
 
     $(".navbar-nav.onepager a, [data-anchor] a").click(function (e) {
 
@@ -43,6 +44,11 @@ $(function () {
                 scrollTop: $(target).offset().top - $(".navbar-hide").height()
             }, 800);
 
+            if(flag == 0){
+                $("#bs-navbar-collapse-1").collapse('hide');
+            }
+
+            flag = 1;
             $("#bs-navbar-collapse-1").collapse('hide');
 
         }
