@@ -25,6 +25,8 @@ $(function () {
     $(window).resize(window.make_home_bg_equal_to_window);
     $(window).scroll(window.add_paralax_while_scrolling);
 
+    $("#bs-navbar-collapse-1").collapse('hide');
+
     $(".navbar-nav.onepager a, [data-anchor] a").click(function (e) {
 
 
