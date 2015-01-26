@@ -2,7 +2,7 @@
 
 <header>
 
-	<nav class="navbar navbar-default  main-navbar" role="navigation" id="home">
+	<nav class="navbar navbar-default hidden-xs hidden-sm  main-navbar" role="navigation" id="home">
 		<div class="row">
 
 			<div class="row">
@@ -55,6 +55,9 @@
 			</div><!-- /.navbar-collapse -->
 		</div>
 	</nav>
+
+
+	<?php get_template_part('partials/dt_nav_mobile'); ?>
 
 
 	<div class="row" style="margin-top: 0px; position: relative; padding-bottom: 102px;">
