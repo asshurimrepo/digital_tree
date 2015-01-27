@@ -56,6 +56,7 @@ $(function () {
 
         var offset = $("#partners").offset().top - $(".navbar-hide").height()-10;
         var window_top = $(this).scrollTop();
+        $("#bs-navbar-collapse-1").collapse('hide');
 
         if(window_top >= offset && ! show_menu){
             show_menu = true;
