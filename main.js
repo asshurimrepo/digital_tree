@@ -43,9 +43,9 @@ $(function () {
                 scrollTop: $(target).offset().top - $(".navbar-hide .navbar-header").height()
             }, 800);
 
-            $("#bs-navbar-collapse-1").collapse('hide');
-
         }
+
+        $("#bs-navbar-collapse-1").collapse('hide');
 
         console.log(target);
         e.preventDefault();
