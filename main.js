@@ -59,11 +59,10 @@ $(function () {
 
         if(window_top >= offset && ! show_menu){
             show_menu = true;
-            $(".navbar-hide").fadeIn(500);
             $(".navbar-hide").removeClass('gone');
         }else if(window_top < offset){
             show_menu = false;
-            $(".navbar-hide").fadeOut(400);
+            $(".navbar-hide").addClass('gone');
         }
 
     });
