@@ -59,7 +59,8 @@ $(function () {
 
         if(window_top >= offset && ! show_menu){
             show_menu = true;
-            $(".navbar-hide").slideDown(500).removeClass('gone');
+            $(".navbar-hide").slideDown(500);
+            $(".navbar-hide").removeClass('gone');
         }else if(window_top < offset){
             show_menu = false;
             $(".navbar-hide").slideUp(400);
