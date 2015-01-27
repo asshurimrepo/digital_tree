@@ -65,8 +65,8 @@
 		<div class="mobile-tree visible-xs visible-sm">
 			<div class="owl-carousel owl-theme single-slide">
 
-				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-2.png')?>" alt="Apps Store Optimization, Mobile Marketing"></div>
-				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-1.png')?>" alt="Brand and Analytics"></div>
+				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-2.png')?>" class="img-responsive" alt="Apps Store Optimization, Mobile Marketing"></div>
+				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-1.png')?>" class="img-responsive" alt="Brand and Analytics"></div>
 
 			</div>
 			<img src="<?=asset('digi-tree/mobiletree.png')?>" alt="Digital Tree" style="margin-bottom: -45px;" class="img-responsive center"/>

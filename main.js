@@ -73,9 +73,10 @@ $(function () {
 
     $(".single-slide").owlCarousel({
 
-        navigation : true, // Show next and prev buttons
+        navigation : false, // Show next and prev buttons
         slideSpeed : 300,
         paginationSpeed : 400,
+        pagination: false,
         singleItem:true,
         autoPlay: 3000
 
