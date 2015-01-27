@@ -40,7 +40,7 @@ $(function () {
         } else {
 
             $('html, body').stop().animate({
-                scrollTop: $(target).offset().top - $(".navbar-hide").height()
+                scrollTop: $(target).offset().top - $(".navbar-hide .navbar-header").height()
             }, 800);
 
             $("#bs-navbar-collapse-1").collapse('hide');
