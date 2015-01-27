@@ -78,7 +78,7 @@ $(function () {
         paginationSpeed : 400,
         pagination: false,
         singleItem:true,
-        autoPlay: 3000
+        autoPlay: 6000
 
 
 
