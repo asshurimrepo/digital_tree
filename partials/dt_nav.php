@@ -67,6 +67,11 @@
 
 				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-2.png')?>" class="img-responsive" alt="Apps Store Optimization, Mobile Marketing"></div>
 				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-1.png')?>" class="img-responsive" alt="Brand and Analytics"></div>
+				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-3.png')?>" class="img-responsive" alt="Brand and Analytics"></div>
+				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-4.png')?>" class="img-responsive" alt="Brand and Analytics"></div>
+				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-5.png')?>" class="img-responsive" alt="Brand and Analytics"></div>
+				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-6.png')?>" class="img-responsive" alt="Brand and Analytics"></div>
+				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-7.png')?>" class="img-responsive" alt="Brand and Analytics"></div>
 
 			</div>
 			<img src="<?=asset('digi-tree/mobiletree.png')?>" alt="Digital Tree" style="margin-bottom: -45px;" class="img-responsive center"/>
