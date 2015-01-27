@@ -351,8 +351,7 @@ img.captcha {
   animation: bounce 2s infinite; }
 
 .navbar-hide {
-  transition: .4s all ease-out;
-  display: block !important; }
+  transition: .4s all ease-out; }
 
 .navbar-hide.gone {
   margin-top: -100px; }
