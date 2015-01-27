@@ -60,10 +60,12 @@ $(function () {
 
         if(window_top >= offset && ! show_menu){
             show_menu = true;
-            $(".navbar-hide").removeClass('gone');
+            //$(".navbar-hide").removeClass('gone');
+            $(".navbar-hide").slideDown(500);
         }else if(window_top < offset && show_menu){
             show_menu = false;
-            $(".navbar-hide").addClass('gone');
+            //$(".navbar-hide").addClass('gone');
+            $(".navbar-hide").slideUp(500);
         }
 
     });
