@@ -60,7 +60,7 @@ $(function () {
         if(window_top >= offset && ! show_menu){
             show_menu = true;
             $(".navbar-hide").removeClass('gone');
-        }else if(window_top < offset){
+        }else if(window_top < offset && show_menu){
             show_menu = false;
             $(".navbar-hide").addClass('gone');
         }
