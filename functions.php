@@ -2,6 +2,9 @@
 
 	require_once( 'inc/helpers.php' );
 	require_once( 'inc/hooks.php' );
+	require_once( 'class/Mobile_Detect.php' );
+
+	$detect = new Mobile_Detect();
 
 	add_theme_support( 'menus' );
 	add_theme_support( 'post-thumbnails' );
@@ -17,21 +20,27 @@
 	) );
 
 
-	function my_wpcf7_dropdown_form($html) {
+	function my_wpcf7_dropdown_form( $html )
+	{
 		$text = 'Applying for?';
-		$html = str_replace('<option value="">---</option>', '<option value="">' . $text . '</option>', $html);
+		$html = str_replace( '<option value="">---</option>', '<option value="">' . $text . '</option>', $html );
+
 		return $html;
 	}
-	add_filter('wpcf7_form_elements', 'my_wpcf7_dropdown_form');
+
+	add_filter( 'wpcf7_form_elements', 'my_wpcf7_dropdown_form' );
 
 
-	function insertThumbnailRSS($content) {
+	function insertThumbnailRSS( $content )
+	{
 		global $post;
-		if ( has_post_thumbnail( $post->ID ) ){
+		if ( has_post_thumbnail( $post->ID ) )
+		{
 			$content = '' . get_the_post_thumbnail( $post->ID ) . '' . $content;
 		}
+
 		return $content;
 	}
 
-	add_filter('the_excerpt_rss', 'insertThumbnailRSS');
-	add_filter('the_content_feed', 'insertThumbnailRSS');
+	add_filter( 'the_excerpt_rss', 'insertThumbnailRSS' );
+	add_filter( 'the_content_feed', 'insertThumbnailRSS' );

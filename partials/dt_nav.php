@@ -1,4 +1,4 @@
-<?php global $main_nav; ?>
+<?php global $main_nav, $detect; ?>
 
 <header>
 
@@ -76,7 +76,10 @@
 			</div>
 			<img src="<?=asset('digi-tree/mobiletree.png')?>" alt="Digital Tree" style="margin-bottom: -45px;" class="img-responsive center"/>
 		</div>
-		<iframe class="hidden-xs hidden-sm" style="width: 100%; min-height: 619px; margin-bottom: -70px;" src="<?=asset('digi-tree/digi-tree.html')?>" frameborder="0"></iframe>
+
+		<?php if( ! $detect->isMobile() ): ?>
+			<iframe class="hidden-xs hidden-sm" style="width: 100%; min-height: 619px; margin-bottom: -70px;" src="<?=asset('digi-tree/digi-tree.html')?>" frameborder="0"></iframe>
+		<?php endif; ?>
 	</div>
 
 
