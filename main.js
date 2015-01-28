@@ -76,7 +76,7 @@ $(function () {
         navigation : false, // Show next and prev buttons
         pagination: false,
         singleItem:true,
-        autoPlay: 6000,
+        autoPlay: 3000,
         lazyLoad: true,
         touchDrag: false
 
