@@ -2,7 +2,6 @@
 
 	require_once( 'inc/helpers.php' );
 	require_once( 'inc/hooks.php' );
-	require_once( 'class/Mobile_Detect.php' );
 
 	$detect = new Mobile_Detect();
 
