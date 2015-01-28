@@ -1,5 +1,5 @@
 <?php global $main_nav; ?>
-<nav id="hidden_nav" class="navbar navbar-hide navbar-default navbar-fixed-top" style="display: none;" >
+<nav id="hidden_nav" class="navbar navbar-hide navbar-default navbar-fixed-top gone" style="display: none;" >
 	<div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
