@@ -2,7 +2,7 @@
 
 <header>
 
-	<nav class="navbar navbar-default hidden-xs hidden-sm  main-navbar" role="navigation" id="home">
+	<nav class="navbar navbar-default hidden-xs hidden-sm  main-navbar gone" role="navigation" id="home">
 		<div class="row">
 
 			<div class="row">
