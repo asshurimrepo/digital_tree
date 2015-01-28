@@ -74,12 +74,11 @@ $(function () {
     $(".single-slide").owlCarousel({
 
         navigation : false, // Show next and prev buttons
-        slideSpeed : 300,
-        paginationSpeed : 400,
         pagination: false,
         singleItem:true,
         autoPlay: 6000,
-        lazyLoad: true
+        lazyLoad: true,
+        touchDrag: false
 
 
 
