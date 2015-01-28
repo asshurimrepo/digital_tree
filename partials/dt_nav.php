@@ -65,13 +65,13 @@
 		<div class="mobile-tree visible-xs visible-sm">
 			<div class="owl-carousel owl-theme single-slide">
 
-				<div class="item center"><img data-src="<?=asset('digi-tree/images/mobile-2.png')?>" class="img-responsive lazyOwl" alt="Apps Store Optimization, Mobile Marketing"></div>
-				<div class="item center"><img data-src="<?=asset('digi-tree/images/mobile-1.png')?>" class="img-responsive lazyOwl" alt="Brand and Analytics"></div>
-				<div class="item center"><img data-src="<?=asset('digi-tree/images/mobile-3.png')?>" class="img-responsive lazyOwl" alt="Development"></div>
-				<div class="item center"><img data-src="<?=asset('digi-tree/images/mobile-4.png')?>" class="img-responsive lazyOwl" alt="Paid Search"></div>
-				<div class="item center"><img data-src="<?=asset('digi-tree/images/mobile-5.png')?>" class="img-responsive lazyOwl" alt="Social Media"></div>
-				<div class="item center"><img data-src="<?=asset('digi-tree/images/mobile-6.png')?>" class="img-responsive lazyOwl" alt="Mobile Network Representation"></div>
-				<div class="item center"><img data-src="<?=asset('digi-tree/images/mobile-7.png')?>" class="img-responsive lazyOwl" alt="Mobile Marketing"></div>
+				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-2.png')?>" class="img-responsive lazyOwl" alt="Apps Store Optimization, Mobile Marketing"></div>
+				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-1.png')?>" class="img-responsive lazyOwl" alt="Brand and Analytics"></div>
+				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-3.png')?>" class="img-responsive lazyOwl" alt="Development"></div>
+				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-4.png')?>" class="img-responsive lazyOwl" alt="Paid Search"></div>
+				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-5.png')?>" class="img-responsive lazyOwl" alt="Social Media"></div>
+				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-6.png')?>" class="img-responsive lazyOwl" alt="Mobile Network Representation"></div>
+				<div class="item center"><img src="<?=asset('digi-tree/images/mobile-7.png')?>" class="img-responsive lazyOwl" alt="Mobile Marketing"></div>
 
 			</div>
 			<img src="<?=asset('digi-tree/mobiletree.png')?>" alt="Digital Tree" style="margin-bottom: -45px;" class="img-responsive center"/>

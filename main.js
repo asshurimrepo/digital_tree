@@ -77,7 +77,7 @@ $(function () {
         pagination: false,
         singleItem:true,
         autoPlay: 3000,
-        lazyLoad: true,
+        //lazyLoad: true,
         touchDrag: false
 
 
