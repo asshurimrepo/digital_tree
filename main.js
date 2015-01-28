@@ -78,7 +78,8 @@ $(function () {
         paginationSpeed : 400,
         pagination: false,
         singleItem:true,
-        autoPlay: 6000
+        autoPlay: 6000,
+        lazyLoad: true
 
 
 
