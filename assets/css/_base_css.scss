@@ -465,11 +465,11 @@ img.captcha{
 
 
 .navbar-hide{
-  transition: .4s all ease-out;
+  transition: .6s all;
   display: block !important;
 }
 .navbar-hide.gone{
-  margin-top: -100px;
+  margin-top: -2000px;
 }
 .navbar-hide.show{
   margin-top: 0;
