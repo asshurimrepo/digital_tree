@@ -77,7 +77,7 @@
 			<img src="<?=asset('digi-tree/mobiletree.png')?>" alt="Digital Tree" style="margin-bottom: -45px;" class="img-responsive center"/>
 		</div>
 
-		<?php if( ! $detect->isMobile() ): ?>
+		<?php if( ! $detect->isMobile() || $detect->isTablet() ): ?>
 			<iframe class="hidden-xs hidden-sm" style="width: 100%; min-height: 619px; margin-bottom: -70px;" src="<?=asset('digi-tree/digi-tree.html')?>" frameborder="0"></iframe>
 		<?php endif; ?>
 	</div>
