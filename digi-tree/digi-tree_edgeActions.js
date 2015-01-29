@@ -22,7 +22,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          	youtube.prop('frameborder', 0);
          	youtube.attr('width', '100%');
          	youtube.attr('height', '100%');
-         	youtube.attr('src', 'https://www.youtube.com/embed/JNBFt0GJ3Qg?autoplay=0&controls=0');
+         	youtube.attr('src', 'https://www.youtube.com/embed/WgpqNzXw4rc?autoplay=0&controls=0&rel=0');
          	youtube.attr('allowfullscreen', 'yes');
          	youtube.attr('style', 'border:0; border-radius:10px; z-index: 99; position:relative;');
          }, 3000);
